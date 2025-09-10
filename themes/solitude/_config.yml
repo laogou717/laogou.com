@@ -919,7 +919,7 @@ envelope:
 # Brevity Page
 # 即刻短文
 brevity:
-  enable: false
+  enable: true
   home_mini: false
   music: false
   page: /essay/

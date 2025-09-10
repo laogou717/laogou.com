@@ -1,4 +1,5 @@
-include ../widgets/page/banner
+if page.banner
+    include ../widgets/page/banner
 if theme.brevity.enable
     //- 通过 helper 汇总 YAML 短文 + 文章型随记，避免在 Pug 中写复杂 JS
     - var brevities = brevity_items()
