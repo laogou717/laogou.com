@@ -1,0 +1,134 @@
+- page.type = is_post() ? 'post' : page.type
+
+mixin katex
+  if theme.katex.copytex
+    script(src=url_for(theme.cdn.katex_copytex))
+      script.
+        (() => {
+          document.querySelectorAll('.article-container span.katex-display').forEach(item => {
+            utils.wrap(item, 'div', {class: 'katex-wrap'})
+          })
+        })();
+
+div
+  // Critical scripts loaded synchronously
+  script(src=url_for(theme.cdn.utils))
+  script(src=url_for(theme.cdn.main))
+  
+  // Non-critical scripts loaded asynchronously
+  script(async src=url_for(theme.cdn.waterfall))
+  script(src=url_for(theme.cdn.pjax))
+
+  // Feature-specific scripts loaded asynchronously
+  if theme.post.share.enable && theme.post.share.list && theme.post.share.list.includes('qrcode')
+    script(async src=url_for(theme.cdn.qrcode))
+
+  if theme.mermaid
+    script(defer src=url_for(theme.cdn.mermaid_js))
+
+  if theme.chart
+    script(defer src=url_for(theme.cdn.chart_js))
+
+  if theme.typeit || typeof theme.hometop.banner.desc === 'object'
+    script(defer src=url_for(theme.cdn.typeit_js))
+
+  if theme.display_mode.universe
+    script(defer src=url_for(theme.cdn.universe_js))
+    script.
+      document.addEventListener('DOMContentLoaded', () => {
+        if (typeof dark === 'function') dark();
+      });
+
+  if theme.translate.enable
+    script(defer src=url_for(theme.cdn.translate_js))
+
+  if theme.katex && theme.katex.enable
+    if theme.katex.per_page && (is_post() || is_page())
+      +katex
+    else if page.katex
+      +katex
+
+  // UI enhancement scripts
+  if theme.lazyload.enable
+    script(async src=url_for(theme.cdn.lazyload))
+  script(defer src=url_for(theme.cdn.snackbar))
+  if theme.lightbox
+    if theme.mediumZoom
+      script(defer src=url_for(theme.cdn.medium_zoom))
+    if theme.fancybox
+      script(defer src=url_for(theme.cdn.fancyapps_ui))
+  if (theme.brevity.home_mini && theme.brevity.enable)
+    script(defer src=url_for(theme.cdn.swiper_js))
+
+  if theme.post.ai.enable
+    script(defer src=url_for(theme.cdn.post_ai))
+
+  // Music player scripts
+  if theme.capsule.enable || theme.music.enable || theme.brevity.enable && theme.brevity.music
+    script.
+      var meting_api = '!{theme.meting_api}';
+    script(defer src=url_for(theme.cdn.aplayer_js))
+    script(defer src=url_for(theme.cdn.meting_js))
+
+  // Cover color processing scripts
+  if theme.post.covercolor.enable
+    case theme.post.covercolor.mode
+      when 'local'
+        script(defer src=url_for(theme.cdn.color_thief))
+        script(defer src=url_for(theme.cdn.cover_local))
+      when 'api'
+        script.
+          const coverColorConfig = {
+            api: '!{theme.post.covercolor.api}',
+            time: !{theme.post.covercolor.time}
+          }
+        script(defer src=url_for(theme.cdn.cover_api))
+      when 'ave'
+        script.
+          const coverColorConfig = {
+            time: !{theme.post.covercolor.time}
+          }
+        script(defer src=url_for(theme.cdn.cover_ave))
+
+  if theme.loading.pace
+    include ../mixins/pace.pug
+
+  // Search functionality
+  if theme.search.enable && theme.search.type === "algolia"
+    script(defer src=url_for(theme.cdn.instantsearch))
+    script(defer src=url_for(theme.cdn.algolia_search))
+
+  // Right menu functionality
+  if theme.right_menu.enable
+    script(defer src=url_for(theme.cdn.right_menu_js))
+
+  if theme.extends.body
+    each item in theme.extends.body
+      != item
+
+  .js-pjax
+    if is_home() && theme.brevity.enable && theme.brevity.home_mini
+      script.
+        sco.initbbtalk()
+    if page.type === 'brevity' && theme.brevity.enable
+      script.
+        GLOBAL_CONFIG.lightbox && utils.lightbox(document.querySelectorAll(".bber-content-img img"));
+        sco.changeTimeFormat(document.querySelectorAll('.bber-info-time time'))
+    if page.comment
+      include ../widgets/third-party/comments/js
+    if theme.mermaid
+      script.
+        mermaid.run();
+
+    if theme.busuanzi && (theme.aside.siteinfo.uv || theme.aside.siteinfo.pv || is_post() && theme.post.meta.pv)
+      script(defer pjax src=url_for(theme.cdn.busuanzi_js))
+
+
+if theme.footer.randomlink
+  include ../widgets/randomlink.pug
+
+// pjax
+!= partial("includes/widgets/third-party/pjax", {}, {cache: true})
+
+// google adsense
+include ../body/gadsense

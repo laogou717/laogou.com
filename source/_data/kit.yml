@@ -1,0 +1,61 @@
+- class_name: 科技知识
+  description: 避免信息差、噶韭菜，向着源头奔去。
+  equipment_list:
+    - name: AI快报
+      specification: 短视频
+      description: 以信息输出为主，不拘泥于形式，发觉一手信息。可在 QQ 频道、个人博客、B 站投稿中查看。
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Web字幕/AInew.webp
+      link: https://www.laogou666.com/categories/today
+    - name: 为AI发电
+      specification: 中视频
+      description: 制作比较认真的一个栏目，主要选题来自粉丝留言和老狗的建议，欢迎各位在评论区投稿。
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-WebDesktop/3-3FOME.png
+      link: https://space.bilibili.com/46377861/channel/collectiondetail?sid=2264872
+    - name: 新手网站搭建
+      specification: 长视频
+      description: 低成本或 0 成本，针对新手搭建网站，可以快速搭建一个自己的网站。
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202403180158339.png
+      link: https://space.bilibili.com/46377861/channel/collectiondetail?sid=1621750
+
+- class_name: 剪辑教程
+  description: 分享视频剪辑教程，包括剪辑、特效、后期等。
+  equipment_list:
+    - name: 剪辑必备技巧
+      specification: BV1Yi4y1K7gR
+      description: 【老狗のPR】学习剪辑五年，总结 PR 十个高效剪辑的技巧。
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202403180117694.png
+      link: https://www.bilibili.com/video/BV1Yi4y1K7gR
+    - name: 懒人一键调色包
+      specification: BV1t5411N7Cf
+      description: 自制 100+ 电影、Vlog 调色预设 + PR 动画包，让视频剪辑事半功倍。
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202403180122261.png
+      link: https://www.bilibili.com/video/BV1t5411N7Cf
+    - name: 100+综艺花字包
+      specification: BV1484y1y7jk
+      description: 【免费分享】自制 100 多种综艺花字样式！
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202403180123734.png
+      link: https://www.bilibili.com/video/BV1484y1y7jk
+    - name: 剪映系列教程
+      specification: 共七期
+      description: 良心制作剪辑教程，带你从剪辑到后期，快速打造你的视频。
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202403180126418.png
+      link: https://space.bilibili.com/46377861/channel/collectiondetail?sid=975446
+
+- class_name: 动漫影视
+  description: 有人喜欢把情绪积压，而我更喜欢用动画影视来表达情绪。
+  equipment_list:
+    - name: 无能力者娜娜
+      specification: 动漫杂谈
+      description: 视频素材：名侦探柯南（片段选自「女王大人的天气预报」）、无能力者娜娜、死亡笔记、喜羊羊与灰太狼、进击的巨人、武林外传、爵迹预告片。
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202403180208013.png
+      link: https://www.bilibili.com/video/BV1aX4y1N7hT/?spm_id_from=333.999.0.0&vd_source=4934d7cca2529d3e7584012ce2319c1b
+    - name: 起风了
+      specification: 情绪表达
+      description: 电影《起风了》 导演：宫崎骏；歌曲《ずっと ずっと ずっと》，歌手：羊毛とおはな。
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202403180209627.png
+      link: https://www.bilibili.com/video/BV1F5411H7Js/?spm_id_from=333.999.0.0&vd_source=4934d7cca2529d3e7584012ce2319c1b
+    - name: 像极了爱情
+      specification: 恋爱告急
+      description: BGM：《像极了》- 永彬 Ryan.B；动漫：《秒速 5 厘米》《你的名字》《追逐繁星的孩子》《云之彼端，约定的地方》《天气之子》。
+      image: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webpicgo-clipboard-images/202403180211358.png
+      link: https://www.bilibili.com/video/BV1gK4y1N7zY/?spm_id_from=333.788.recommend_more_video.1&vd_source=4934d7cca2529d3e7584012ce2319c1b

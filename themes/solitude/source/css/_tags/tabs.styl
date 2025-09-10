@@ -1,0 +1,47 @@
+.tabs
+  position relative
+
+  .nav-tabs
+    margin-top 0
+    display flex
+    background var(--efu-card-bg)
+    border var(--style-border-always)
+    border-radius var(--radius)
+    margin-bottom .5rem
+    padding .3rem .5rem
+    gap .5rem
+    flex-wrap wrap
+
+    .tab
+      border-radius 6px
+      transition all 0.3s ease
+
+      button
+        width 100%
+        padding 0 .3rem
+        height 100%
+        font-size 14px
+
+      &.active
+        background var(--light-grey)
+        i,button
+          color var(--efu-main)
+
+      i
+        font-size 14px
+        margin-right .3rem
+
+  .tab-contents
+    padding .5rem
+    border var(--style-border-always)
+    border-radius var(--radius)
+    transition all 0.3s ease
+
+    .tab-item-content.active
+      display block
+      opacity 1
+      transform translateY(0)
+    .tab-item-content
+      display none
+      opacity 0
+      transform translateY(-10px)

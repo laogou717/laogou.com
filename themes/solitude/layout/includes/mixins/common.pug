@@ -1,0 +1,179 @@
+//- ===========================================
+//- 通用Mixin模板 - 提供可复用的组件抽象
+//- ===========================================
+
+//- 图标组件
+mixin icon(iconClass, title)
+  if title
+    i.solitude(class=iconClass, title=title)
+  else
+    i.solitude(class=iconClass)
+
+//- 链接组件
+mixin link(url, text, options)
+  - options = options || {}
+  - var title = options.title || text
+  - var target = options.target
+  - var className = options.class
+  - var id = options.id
+  - var onclick = options.onclick
+  a(
+    href=url_for(url)
+    title=title
+    target=target
+    class=className
+    id=id
+    onclick=onclick
+  )
+    if text
+      = text
+    if block
+      block
+
+//- 卡片容器
+mixin card(options)
+  - options = options || {}
+  - var className = options.class
+  - var id = options.id
+  - var title = options.title
+  - var titleIcon = options.titleIcon
+  - var noHead = options.noHead
+  .card-widget(class=className, id=id)
+    if title && !noHead
+      .item-headline
+        if titleIcon
+          +icon(titleIcon)
+        span= title
+    .item-content
+      if block
+        block
+
+//- 评论系统选择器
+mixin commentSystem(systemName, containerId)
+  case systemName
+    when 'Valine'
+      div(id=containerId || 'vcomment', class='vcomment')
+    when 'Twikoo'
+      div(id=containerId || 'twikoo-wrap')
+    when 'Waline'  
+      div(id=containerId || 'waline-wrap')
+    when 'Artalk'
+      div(id=containerId || 'artalk-wrap')
+    when 'Giscus'
+      div(id=containerId || 'giscus-wrap')
+
+//- 评论计数器
+mixin commentCount(systemName, options)
+  - options = options || {}
+  case systemName
+    when 'Twikoo'
+      span.twikoo-count
+        +icon('fas fa-spinner fa-spin')
+    when 'Waline'
+      span.waline-comment-count
+        +icon('fas fa-spinner fa-spin')
+    when 'Valine'
+      span.valine-comment-count(
+        data-xid=url_for(page.path)
+        itemprop="commentCount"
+      )
+        +icon('fas fa-spinner fa-spin')
+    when 'Artalk'
+      span.artalk-comment-count
+    when 'Giscus'
+      span.giscus-count
+
+//- 文章元信息
+mixin postMeta(post, options)
+  - options = options || {}
+  - var showDate = options.showDate !== false
+  - var showTags = options.showTags !== false
+  - var showCategories = options.showCategories !== false
+  .article-meta-wrap
+    if showTags && post.tags && post.tags.length > 0
+      span.article-meta.tags
+        each tag in post.tags.data
+          - var linkOptions = { class: 'article-meta__tags', onclick: 'event.stopPropagation();' }
+          +link(tag.path, '', linkOptions)
+            span.tags-punctuation
+              +icon('fas fa-hashtag')
+              = tag.name
+    
+    if showDate
+      span.post-meta-date
+        time(datetime=moment(post.date))= date(post.date, config.date_format)
+
+//- 文章封面
+mixin postCover(post, options)
+  - options = options || {}
+  - var lazy = options.lazy !== false
+  if post.cover
+    - var linkOptions = { title: post.title }
+    +link(post.path, '', linkOptions)
+      img.post_bg(
+        src=url_for(post.cover)
+        alt=post.title
+        loading=lazy ? 'lazy' : 'eager'
+      )
+
+//- 页面横幅
+mixin pageBanner(title, subtitle, backgroundImage)
+  - var bannerStyle = backgroundImage ? 'background-image: url(' + url_for(backgroundImage) + ')' : ''
+  .page-banner(style=bannerStyle)
+    .banner-content
+      if title
+        h1.banner-title= title
+      if subtitle
+        p.banner-subtitle= subtitle
+
+//- 加载动画
+mixin loading(type)
+  - type = type || 'spinner'
+  case type
+    when 'spinner'
+      .loading-spinner
+        +icon('fas fa-spinner fa-spin')
+    when 'dots'
+      .loading-dots
+        span
+        span  
+        span
+
+//- 条件渲染辅助
+mixin conditionalWrapper(condition, tag, attributes)
+  - tag = tag || 'div'
+  - attributes = attributes || {}
+  if condition
+    #{tag}&attributes(attributes)
+      if block
+        block
+  else
+    if block
+      block
+
+//- 响应式图片
+mixin responsiveImage(src, alt, options)
+  - options = options || {}
+  - var sizes = options.sizes
+  - var lazy = options.lazy !== false
+  - var className = options.class
+  img(
+    src=url_for(src)
+    alt=alt
+    class=className
+    loading=lazy ? 'lazy' : 'eager'
+    sizes=sizes
+  )
+
+//- 社交分享按钮
+mixin shareButton(platform, url, title)
+  - var shareUrl = ''
+  - var encodedUrl = encodeURIComponent(url)
+  - var encodedTitle = encodeURIComponent(title)
+  - if (platform === 'twitter') shareUrl = 'https://twitter.com/intent/tweet?url=' + encodedUrl + '&text=' + encodedTitle
+  - else if (platform === 'facebook') shareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + encodedUrl
+  - else if (platform === 'weibo') shareUrl = 'https://service.weibo.com/share/share.php?url=' + encodedUrl + '&title=' + encodedTitle
+  
+  - var linkOptions = { class: 'share-' + platform, target: '_blank', title: '分享到' + platform }
+  +link(shareUrl, '', linkOptions)
+    +icon('fab fa-' + platform)

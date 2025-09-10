@@ -1,0 +1,80 @@
+- let custom_list = theme.right_menu.custom_list || []
+
+div#rightMenu
+    div.rightMenu-group.rightMenu-small
+        div.rightMenu-item#menu-backward
+            i.solitude.fas.fa-arrow-left
+        div.rightMenu-item#menu-forward
+            i.solitude.fas.fa-arrow-right
+        div.rightMenu-item#menu-refresh
+            i.solitude.fas.fa-arrows-rotate
+        div.rightMenu-item#menu-top
+            i.solitude.fas.fa-arrow-up
+    div.rightMenu-group.rightMenu-line.rightMenuPlugin
+        div.rightMenu-item#menu-copytext
+            i.solitude.fas.fa-clone
+            span= _p('right_menu.copy')
+        div.rightMenu-item#menu-pastetext
+            i.solitude.fas.fa-clipboard
+            span= _p('right_menu.paste')
+        if theme.comment.use
+            div.rightMenu-item#menu-commenttext
+                i.solitude.fas.fa-comment-medical
+                span= _p('right_menu.comment')
+        div.rightMenu-item#menu-newwindow
+            i.solitude.far.fa-window-maximize
+            span= _p('right_menu.new')
+        div.rightMenu-item#menu-copylink
+            i.solitude.fas.fa-link
+            span= _p('right_menu.link')
+        div.rightMenu-item#menu-copyimg
+            i.solitude.fas.fa-clone
+            span= _p('right_menu.img')
+        div.rightMenu-item#menu-downloadimg
+            i.solitude.fas.fa-cloud-arrow-down
+            span= _p('right_menu.downloadImg')
+        if theme.search.enable
+            div.rightMenu-item#menu-search
+                i.solitude.fas.fa-magnifying-glass
+                span= _p('right_menu.search')
+        if theme.capsule.enable
+            div.rightMenu-item#menu-music-toggle
+                i.solitude.fas.fa-play
+                span= _p('right_menu.music.start')
+            div.rightMenu-item#menu-music-back
+                i.solitude.fas.fa-backward
+                span= _p('right_menu.music.back')
+            div.rightMenu-item#menu-music-forward
+                i.solitude.fas.fa-forward
+                span= _p('right_menu.music.forward')
+            div.rightMenu-item#menu-music-copyMusicName
+                i.solitude.fas.fa-clone
+                span= _p('right_menu.music.copyMusicName')
+    if custom_list.length > 0
+        div.rightMenu-group.rightMenu-line.rightMenuOther
+            each item,index in custom_list
+                div.rightMenu-item(id=item.id class=item.class onclick=item.click+'||rm.hideRightMenu()')
+                    i.solitude(class=item.icon)
+                    span= item.name
+    div.rightMenu-group.rightMenu-line.rightMenuOther
+        if theme.right_menu.commentBarrage && theme.comment.use && theme.comment.commentBarrage
+            div.rightMenu-item#menu-commentBarrage(onclick="sco.switchCommentBarrage()")
+                i.solitude.fas.fa-comment
+                span.menu-commentBarrage-text= _p('right_menu.barrage.close')
+        div.rightMenu-item#menu-darkmode(onclick="sco.switchDarkMode()")
+            i.solitude.fas.fa-circle-half-stroke
+            case theme.display_mode.type
+                when 'auto'
+                when 'light'
+                    span.menu-darkmode-text= _p('right_menu.light')
+                when 'dark'
+                    span.menu-darkmode-text= _p('right_menu.dark')
+        if theme.right_menu.translate
+            div.rightMenu-item#menu-translate
+                i.solitude.fas.fa-language
+                case theme.translate.defaultEncoding
+                    when 2
+                        span= _p('right_menu.chs_to_cht')
+                    when 1
+                        span= _p('right_menu.cht_to_chs')
+div#rightmenu-mask

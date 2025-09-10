@@ -1,0 +1,319 @@
+{
+	"Heo-100": {
+		"type": "image",
+		"container": [
+			{
+				"text": "Heo-100-不好意思",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/d76ee9407dda6.png'>"
+			},
+			{
+				"text": "Heo-100-亲亲",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/089d02ba5a01f.png'>"
+			},
+			{
+				"text": "Heo-100-倚墙笑",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/41dc5adcd1bc1.png'>"
+			},
+			{
+				"text": "Heo-100-偷偷看",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/3699bb99acf82.png'>"
+			},
+			{
+				"text": "Heo-100-再见",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/c5399c75bf850.png'>"
+			},
+			{
+				"text": "Heo-100-出家人",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/0a01613187ded.png'>"
+			},
+			{
+				"text": "Heo-100-加班",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/317b790a902ec.png'>"
+			},
+			{
+				"text": "Heo-100-勉强笑",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/40f64b70a60b2.png'>"
+			},
+			{
+				"text": "Heo-100-危险",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/5899fa8e38f6e.png'>"
+			},
+			{
+				"text": "Heo-100-发红包",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/6f96e7d20bf6f.png'>"
+			},
+			{
+				"text": "Heo-100-吃瓜",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/fdc132fe43b9a.png'>"
+			},
+			{
+				"text": "Heo-100-吐血",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/d67d242a3c063.png'>"
+			},
+			{
+				"text": "Heo-100-吵架",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/a3e05428d90bf.png'>"
+			},
+			{
+				"text": "Heo-100-呲牙笑",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/89b9c141c2a22.png'>"
+			},
+			{
+				"text": "Heo-100-哈士奇",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/9877442436728.png'>"
+			},
+			{
+				"text": "Heo-100-哈士奇失去意识",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/1329511eed440.png'>"
+			},
+			{
+				"text": "Heo-100-哭泣",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/6e128183dada2.png'>"
+			},
+			{
+				"text": "Heo-100-唱歌",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/941b9e0661c9a.png'>"
+			},
+			{
+				"text": "Heo-100-喜欢",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/dcc83b454bade.png'>"
+			},
+			{
+				"text": "Heo-100-大笑",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/c50ad1cd452e8.png'>"
+			},
+			{
+				"text": "Heo-100-头秃",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/36807b8dbdca1.png'>"
+			},
+			{
+				"text": "Heo-100-奋斗",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/9eb32c1a9464c.png'>"
+			},
+			{
+				"text": "Heo-100-好奇",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/6b7654595eec7.png'>"
+			},
+			{
+				"text": "Heo-100-好的",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/43ac2ca6695f8.png'>"
+			},
+			{
+				"text": "Heo-100-害羞",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/667bf1aeb3291.png'>"
+			},
+			{
+				"text": "Heo-100-小丑",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/e059eb61c7c3b.png'>"
+			},
+			{
+				"text": "Heo-100-尴尬",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/2c76f1faf66ca.png'>"
+			},
+			{
+				"text": "Heo-100-应援",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/071d3c6dca810.png'>"
+			},
+			{
+				"text": "Heo-100-开心",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/e701a2c61428c.png'>"
+			},
+			{
+				"text": "Heo-100-引起不适",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/41eeb7915285b.png'>"
+			},
+			{
+				"text": "Heo-100-微笑",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/1a308f5fc42f1.png'>"
+			},
+			{
+				"text": "Heo-100-思考",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/90cd4d45ed174.png'>"
+			},
+			{
+				"text": "Heo-100-恶心",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/31adf24d04bff.png'>"
+			},
+			{
+				"text": "Heo-100-惊吓",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/fb2475c7cde57.png'>"
+			},
+			{
+				"text": "Heo-100-惊讶",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/7d121fc0f0170.png'>"
+			},
+			{
+				"text": "Heo-100-感动",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/5526dc090d779.png'>"
+			},
+			{
+				"text": "Heo-100-愤怒",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/a53c4f877bc25.png'>"
+			},
+			{
+				"text": "Heo-100-我看好你",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/e410527df903b.png'>"
+			},
+			{
+				"text": "Heo-100-打牌",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/1104d4040b908.png'>"
+			},
+			{
+				"text": "Heo-100-抠鼻",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/df4f37dc8df4e.png'>"
+			},
+			{
+				"text": "Heo-100-捂嘴笑",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/c86251ed82e6e.png'>"
+			},
+			{
+				"text": "Heo-100-捂脸",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/353b6fb5c8c5e.png'>"
+			},
+			{
+				"text": "Heo-100-擦汗",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/0c42626b2d407.png'>"
+			},
+			{
+				"text": "Heo-100-月饼",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/f254c6ff7e085.png'>"
+			},
+			{
+				"text": "Heo-100-滑稽",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/ff35b46659364.png'>"
+			},
+			{
+				"text": "Heo-100-滑稽喝水",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/38c75f3787646.png'>"
+			},
+			{
+				"text": "Heo-100-滑稽狂汗",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/ff59445aa3e47.png'>"
+			},
+			{
+				"text": "Heo-100-滑稽被子",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/85e8cd197168d.png'>"
+			},
+			{
+				"text": "Heo-100-烦恼",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/e525dd0ccd204.png'>"
+			},
+			{
+				"text": "Heo-100-熊猫",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/116b9b94ed574.png'>"
+			},
+			{
+				"text": "Heo-100-熊猫唱歌",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/d6279ca171470.png'>"
+			},
+			{
+				"text": "Heo-100-熊猫喜欢",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/d80185ea33b04.png'>"
+			},
+			{
+				"text": "Heo-100-熬夜",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/a0d0f71f4a1ef.png'>"
+			},
+			{
+				"text": "Heo-100-爆炸",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/85ebd51a34c8b.png'>"
+			},
+			{
+				"text": "Heo-100-牛年进宝",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/8d97824770a27.png'>"
+			},
+			{
+				"text": "Heo-100-狗头",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/7844c78215f18.png'>"
+			},
+			{
+				"text": "Heo-100-狗头围脖",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/f8267ffe682b4.png'>"
+			},
+			{
+				"text": "Heo-100-狗头胖次",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/24ca1d8154f08.png'>"
+			},
+			{
+				"text": "Heo-100-狗头花",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/d7c475de07d04.png'>"
+			},
+			{
+				"text": "Heo-100-狗头草",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/d3139a3609fb1.png'>"
+			},
+			{
+				"text": "Heo-100-生病",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/17f4d9d959509.png'>"
+			},
+			{
+				"text": "Heo-100-疑问",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/07ab76c4e0088.png'>"
+			},
+			{
+				"text": "Heo-100-疼痛",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/55b248fee8a9c.png'>"
+			},
+			{
+				"text": "Heo-100-看穿一切",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/a160beb714fca.png'>"
+			},
+			{
+				"text": "Heo-100-眩晕",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/779da70211331.png'>"
+			},
+			{
+				"text": "Heo-100-睡觉",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/6c64bf9d83d6f.png'>"
+			},
+			{
+				"text": "Heo-100-禁言",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/d33ae6b7bba6a.png'>"
+			},
+			{
+				"text": "Heo-100-笑哭",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/680f8f18a553d.png'>"
+			},
+			{
+				"text": "Heo-100-纠结",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/7c8464b1918ba.png'>"
+			},
+			{
+				"text": "Heo-100-绿帽",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/4fa0d2550b6e9.png'>"
+			},
+			{
+				"text": "Heo-100-耍酷",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/87f8d75003dde.png'>"
+			},
+			{
+				"text": "Heo-100-菜狗",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/c0f1977daac9a.png'>"
+			},
+			{
+				"text": "Heo-100-被打",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/a4e4da2bf1776.png'>"
+			},
+			{
+				"text": "Heo-100-送福",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/b42c4a59b39f2.png'>"
+			},
+			{
+				"text": "Heo-100-阴险",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/bea906f99e3a2.png'>"
+			},
+			{
+				"text": "Heo-100-难以置信",
+				"icon": "<img src='https://bu.dusays.com/2021/06/20/1a0bf068843c0.png'>"
+			},
+			{
+				"text": "Heo-100-鬼脸",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/1d13344cc2aec.png'>"
+			},
+			{
+				"text": "Heo-100-鼓掌",
+				"icon": "<img src='https://bu.dusays.com/2021/03/03/b9ade47a8ff6d.png'>"
+			}
+		]
+	}
+}

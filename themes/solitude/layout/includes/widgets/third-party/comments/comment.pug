@@ -1,0 +1,44 @@
+//- ===========================================
+//- 评论组件
+//- ===========================================
+
+include ../../../mixins/common.pug
+
+- const { use, count } = theme.comment
+
+//- 评论切换器组件
+mixin commentSwitcher()
+  if use.length > 1
+    .comment-switch
+      span.first= use[0]
+      span#switch-btn
+      span.second= use[1]
+
+//- 评论标题组件
+mixin commentHeader()
+  .comment-head
+    .comment-headline
+      +icon('fas fa-comment')
+      span= ' ' + _p('comment.title')
+      
+      //- 评论计数
+      if count && is_post()
+        span.count
+          = ' ('
+          each name in use
+            +commentCount(name)
+          | )
+    
+    //- 评论系统切换器
+    +commentSwitcher()
+
+//- 评论容器组件
+mixin commentContainer()
+  .comment-wrap
+    each name in use
+      +commentSystem(name)
+
+//- 主评论组件
+#post-comment
+  +commentHeader()
+  +commentContainer()

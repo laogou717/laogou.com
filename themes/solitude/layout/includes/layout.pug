@@ -1,0 +1,68 @@
+//- ===========================================
+//- 主布局模板 - 重构后的清晰结构
+//- ===========================================
+
+include ./mixins/common.pug
+
+- page.type = is_home() ? 'solitude' : page.type
+
+doctype html
+html(lang=config.language, data-theme="light")
+    head
+        include ./head.pug
+    
+    body#body(data-type=page.type)
+        //- 背景特效
+        if theme.display_mode.universe
+            +conditionalWrapper(theme.display_mode.universe)
+                canvas#universe
+
+        //- 全屏加载动画
+        if theme.loading.fullpage
+            +conditionalWrapper(theme.loading.fullpage)
+                include ./loading.pug
+
+        //- 控制台
+        +conditionalWrapper(theme.console.enable)
+            include ./console.pug
+
+        //- 侧边栏
+        include ./sidebar.pug
+
+        //- 键盘快捷键
+        if theme.keyboard.enable
+            +conditionalWrapper(theme.keyboard.enable)
+                include ./keyboard.pug
+        
+        //- 右侧工具栏
+        if theme.rightside.enable
+            +conditionalWrapper(theme.rightside.enable)
+                include ./rightside.pug
+
+        //- 主体内容区域
+        #body-wrap(class=is_post() ? 'post' : 'page')
+            include ./header.pug
+
+            if page.type !== '404'
+                block content
+                footer#footer
+                    include ./footer.pug
+            else
+                .error#body-wrap
+                    block content
+
+        //- 右键菜单
+        if theme.right_menu.enable
+            +conditionalWrapper(theme.right_menu.enable)
+                include ./rightmenu.pug
+
+        //- 注入的body内容
+        include ./inject/body.pug
+
+        //- 搜索功能
+        include ./widgets/third-party/search/index.pug
+
+        //- 音乐播放器
+        if theme.capsule.enable
+            +conditionalWrapper(theme.capsule.enable)
+                include ./widgets/third-party/music.pug

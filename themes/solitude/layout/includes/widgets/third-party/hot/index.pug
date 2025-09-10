@@ -1,0 +1,18 @@
+//- ===========================================
+//- 热门内容组件
+//- ===========================================
+
+include ../../../mixins/common.pug
+
+- const { count } = theme.comment.hot_tip
+- const { use } = theme.comment
+
+//- 主热门内容组件
++conditionalWrapper(use && use.length > 0)
+  case use[0]
+    when 'Twikoo'
+      include ./twikoo
+    when 'Artalk'
+      include ./artalk
+    when 'Waline'
+      include ./waline

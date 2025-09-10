@@ -1,0 +1,23 @@
+//- ===========================================
+//- 侧边栏组件切换器
+//- ===========================================
+
+include ../../mixins/common.pug
+
+//- 主切换逻辑
+case item
+  when 'about'
+    include ./asideInfoCard.pug
+  when 'newestPost'
+    include ./asideNewestPost.pug
+  when 'allInfo'
+    include ./asideAllInfo.pug
+  when 'ads'
+    include ./asideAdsense.pug
+  when 'newest_comment'
+    include ./asideNewstComments.pug
+  default
+    //- 处理自定义组件
+    - const custom = site.data && site.data.aside && site.data.aside.find((i) => i.name === item)
+    +conditionalWrapper(custom)
+      include ./asideCustom.pug

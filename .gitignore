@@ -1,0 +1,28 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+*.log*
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
+
+# Hexo caches
+.cache/
+.hexo/
+
+# Theme dependencies (nested node_modules)
+themes/*/node_modules/
+
+# IDE/editor
+.idea/
+.vscode/
+
+# Env files & local overrides
+.env
+.env.*
+*.local
+
+# OS junk
+Desktop.ini

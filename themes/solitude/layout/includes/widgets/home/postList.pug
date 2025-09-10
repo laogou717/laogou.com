@@ -1,0 +1,92 @@
+//- ===========================================
+//- 文章列表组件
+//- ===========================================
+
+include ../../mixins/common.pug
+
+- const { direction, cover } = theme.index_post_list
+
+//- 文章标签组件
+mixin postTips()
+  .recent-post-info-top-tips
+    //- 置顶标签
+    if post.sticky && is_home()
+      span.article-meta.sticky-warp
+        +icon('fas fa-thumbtack', '', { class: 'sticky orange' })
+        span.sticky.orange= _p('home.sticky')
+    
+    //- 分类标签
+    each category in post.categories.data
+      span.original= category.name
+
+    //- 新文章标签
+    if post.prev == null && is_home()
+      span.original= _p('home.new')
+
+    //- 阅读链接
+    - var readLinkOptions = { class: 'unvisited-post' }
+    +link(post.path, _p('home.read'), readLinkOptions)
+
+//- 文章信息组件
+mixin postInfo()
+  .recent-post-info-top
+    +postTips()
+    - var titleLinkOptions = { class: 'article-title', title: post.title }
+    +link(post.path, post.title, titleLinkOptions)
+  
+  //- 文章元数据
+  +postMeta(post)
+
+//- 文章封面组件  
+mixin postCoverWrapper()
+  if post.cover
+    .post_cover
+      +postCover(post)
+
+//- 列布局渲染
+mixin columnLayout()
+  +postCoverWrapper()
+  .recent-post-info
+    +postInfo()
+
+//- 行布局渲染
+mixin rowLayout(position)
+  case position
+    when 0
+      +postCoverWrapper()
+      .recent-post-info
+        +postInfo()
+    when 1
+      .recent-post-info
+        +postInfo()
+      +postCoverWrapper()
+
+//- 广告组件
+mixin adsenseCard()
+  if theme.google_adsense && theme.google_adsense.enable && !theme.google_adsense.auto_ads && theme.google_adsense.post_card
+    - var adsHeight = direction === 'column' ? '401px' : '280px'
+    if (index + 1) % 3 === 0
+      .recent-post-item.google-ads-warp
+        - var adsStyle = 'display:block; text-align:center; min-width: 100%; height:' + adsHeight
+        ins.adsbygoogle(
+          style=adsStyle
+          data-ad-layout="in-article"
+          data-ad-format="fluid"
+          hide-unfilled="true"
+          data-ad-client=theme.google_adsense.client
+          data-ad-slot=theme.google_adsense.slot
+        )
+        script.
+          (adsbygoogle = window.adsbygoogle || []).push({});
+
+//- 主文章项组件
+- var onclickAttr = "pjax.loadUrl('" + url_for(post.path) + "')"
+.recent-post-item(onclick=onclickAttr)
+  if direction === 'column'
+    +columnLayout()
+  else
+    - var position = cover === 'both' ? index % 2 : (cover === 'left' ? 0 : 1)
+    +rowLayout(position)
+
+//- 插入广告
++adsenseCard()

@@ -1,0 +1,54 @@
+//- ===========================================
+//- Include管理器
+//- ===========================================
+
+//- 核心mixins
+include ./common.pug
+
+//- 布局相关includes
+mixin includeLayout()
+  include ../head.pug
+
+mixin includeHeader()
+  include ../header.pug
+
+mixin includeFooter()
+  include ../footer.pug
+
+mixin includeSidebar()
+  include ../sidebar.pug
+
+//- 导航相关includes
+mixin includeNav()
+  include ../nav.pug
+  include ../widgets/nav/menu.pug
+  include ../widgets/nav/right.pug
+
+//- 第三方服务includes
+mixin includeComments()
+  include ../widgets/third-party/comments/comment.pug
+
+mixin includeSearch()
+  include ../widgets/third-party/search/index.pug
+
+mixin includeMusic()
+  include ../widgets/third-party/music.pug
+
+//- 页面组件includes
+mixin includeHomeWidgets()
+  include ../widgets/home/hometop.pug
+  include ../widgets/home/categoryBar.pug
+  include ../widgets/home/postList.pug
+
+mixin includeAsideWidgets()
+  include ../widgets/aside/aside.pug
+
+//- 工具函数includes
+mixin includePagination()
+  include ../mixins/pagination.pug
+
+//- 注意：Pug不支持动态include路径
+//- 如需要条件加载，请在具体模板中使用条件语句
+//- 例如：
+//- if someCondition
+//-   include ./some-template.pug

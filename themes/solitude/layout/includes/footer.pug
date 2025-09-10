@@ -1,0 +1,152 @@
+//- ===========================================
+//- 页脚模板
+//- ===========================================
+
+include ./mixins/common.pug
+
+- const { information, group } = theme.footer
+
+//- 文章页脚栏组件
+mixin postFooterBar()
+  if theme.post.footer.enable && is_post()
+    #st-footer-bar
+      .footer-logo
+        case theme.site.name.class
+          when 'i_class'
+            +icon(theme.site.name.custom)
+          when 'img'
+            img.solitude.nolazyload(src=url_for(theme.site.name.custom))
+          when 'text'
+            span= theme.site.name.custom
+      
+      .footer-bar-description= theme.post.footer.desc
+      
+      +conditionalWrapper(theme.post.footer.button.enable)
+        +link(
+          theme.post.footer.button.url,
+          theme.post.footer.button.name,
+          { class: 'footer-bar-link' }
+        )
+//- 页脚交易链接组件
+mixin footerDeals()
+  if information.left || information.right || information.author
+    #footer_deal
+      - const leftInfo = information.left || []
+      - const rightInfo = information.right || []
+
+      //- 左侧链接
+      each value, label in leftInfo
+        - const [url, iconClass] = value.split('||')
+        +link(trim(url), '', { 
+          class: 'deal_link',
+          title: label 
+        })
+          +icon(iconClass)
+
+      //- 作者头像
+      +conditionalWrapper(information.author)
+        #footer_mini_logo.nolazyload.footer_mini_logo(
+          title=_p('nav.backtop')
+          onclick="sco.toTop()"
+        )
+          img(src=information.author, alt=_p('nav.backtop'))
+
+      //- 右侧链接
+      each value, label in rightInfo
+        - const [url, iconClass] = value.split('||')
+        +link(trim(url), '', {
+          class: 'deal_link',
+          title: label
+        })
+          +icon(iconClass)
+
+//- 页脚分组链接组件
+mixin footerGroups()
+  +conditionalWrapper(group)
+    #st-footer
+      each value, groupName in group || []
+        .footer-group
+          h3.footer-title= groupName
+          .footer-links
+            each url, linkName in value
+              +link(url, linkName, {
+                class: 'footer-item',
+                title: linkName
+              })
+
+      //- 随机友链
+      +conditionalWrapper(theme.footer && theme.footer.randomlink)
+        .footer-group
+          .footer-title-group
+            h3.footer-title= _p('footer.randomlink')
+            button.random-friends-btn(
+              onclick='randomLinksList()'
+              title=_p('footer.randomlink')
+            )
+              +icon('fas fa-arrows-rotate')
+          .footer-links#friend-links-in-footer
+//- 版权信息组件
+mixin copyrightInfo()
+  - const startYear = moment(theme.aside.siteinfo.runtime).year()
+  - const currentYear = new Date().getFullYear()
+  - const yearRange = startYear === currentYear ? startYear : `${startYear} - ${currentYear}`
+  
+  .copyright © #{yearRange} By&nbsp;
+    +link('/', config.author, { class: 'footer-bar-link' })
+      img.author-avatar(src=url_for(theme.site.icon))
+      = config.author
+
+//- 备案信息组件
+mixin beianInfo()
+  .beian-group
+    +conditionalWrapper(theme.footer.beian)
+      - const beian = theme.footer.beian || []
+      each item in beian
+        +link(item.url, '', {
+          class: 'footer-bar-link',
+          title: item.name
+        })
+          +conditionalWrapper(item.icon)
+            img.beian-icon(src=url_for(item.icon), alt=item.name)
+          span.beian-name= item.name
+    
+    +link(_p('hexo'), _p('framework_by') + 'Hexo', { class: 'footer-bar-link' })
+    +link(_p('repo'), _p('theme_by') + 'Solitude', { class: 'footer-bar-link' })
+
+//- 页脚右侧链接组件
+mixin footerRightLinks()
+  +conditionalWrapper(theme.footer.links)
+    .footer-bar-right
+      each item in theme.footer.links
+        +link(item.url, '', {
+          class: 'footer-bar-link',
+          alt: item.name
+        })
+          if item.icon
+            each icon in item.icon
+              +icon(icon)
+          else if item.img
+            img(src=url_for(item.img), alt=item.name)
+          else
+            != item.name
+
+//- 页脚底部栏组件
+mixin footerBar()
+  #footer-bar
+    .footer-bar-links
+      .footer-bar-left
+        +copyrightInfo()
+        +beianInfo()
+      +footerRightLinks()
+
+//- 评论弹幕组件
+mixin commentBarrage()
+  +conditionalWrapper(theme.comment.use && theme.comment.commentBarrage)
+    .comment-barrage.needEndHide
+
+//- 组装所有页脚组件
++postFooterBar()
++footerDeals()
++footerGroups()
++footerBar()
++commentBarrage()

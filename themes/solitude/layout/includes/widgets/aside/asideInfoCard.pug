@@ -1,0 +1,20 @@
+.card-widget.card-info
+    .card-content
+        .card-info-avatar.is-center
+            .top-group
+                .sayhi#sayhi(onclick="sco.changeWittyWord()")
+        .avatar
+            img(alt=_p('aside.avatar'), src=theme.aside.my_card.author.img)
+            if theme.aside.my_card.author.sticker
+                .sticker
+                    img.sticker-img(src=theme.aside.my_card.author.sticker, alt=_p('aside.sticker'))
+        .description!= theme.aside.my_card.content
+        .bottom-group
+            span.left
+                .name= config.author
+                .desc!= theme.aside.my_card.description
+            .social-icons.is-center
+                each value, label in theme.aside.my_card.information || {}
+                    - var array = value.split('||')
+                    a.social-icon(href=url_for(trim(array[0])), title=label)
+                        i.solitude(class=array[1])

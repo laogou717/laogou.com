@@ -1,0 +1,100 @@
+//- ===========================================
+//- 命名规范和样式指南
+//- ===========================================
+
+//- 🎯 命名规范说明
+//- 
+//- 1. 文件命名：
+//- - 布局文件：layout.pug, head.pug, footer.pug
+//- - 页面文件：index.pug, page.pug, post.pug  
+//- - 组件文件：使用camelCase，如postList.pug, categoryBar.pug
+//- - Mixin文件：common.pug, includes.pug
+//- 
+//- 2. Mixin命名：
+//- - 使用camelCase：postMeta(), commentSystem(), responsiveImage()
+//- - 组件mixin以组件名开头：postCover(), postInfo(), commentHeader()
+//- - 工具mixin使用动词：conditionalWrapper(), renderComponent()
+//- 
+//- 3. 变量命名：
+//- - 使用camelCase：pageTitle, currentYear, componentPath
+//- - 常量使用UPPER_CASE：PAGE_ROUTES, ASIDE_COMPONENTS
+//- - 配置对象使用descriptive names：themeConfig, commentConfig
+//- 
+//- 4. CSS类名：
+//- - 使用kebab-case：recent-post-item, comment-header, footer-bar-links
+//- - BEM方法论：block__element--modifier
+//- - 组件前缀：post-, comment-, nav-, aside-
+//- 
+//- 5. ID命名：
+//- - 使用kebab-case：content-inner, recent-posts, footer-bar
+//- - 保持简洁且语义化
+//- 
+//- 6. 注释规范：
+//- - 文件头部使用分隔线注释说明文件用途
+//- - 每个主要section使用//- 注释
+//- - Mixin定义前说明用途和参数
+//- - 复杂逻辑使用行内注释
+
+//- 🛠️ 工具函数
+//- 
+//- 标准化类名生成
+mixin generateClassName(base, modifier = '', element = '')
+  - let className = base
+  - if (element) className += `__${element}`
+  - if (modifier) className += `--${modifier}`
+  = className
+
+//- 标准化ID生成
+mixin generateId(parts)
+  - const id = Array.isArray(parts) ? parts.join('-') : parts
+  = id.toLowerCase().replace(/[^a-z0-9-]/g, '-')
+
+//- 组件命名辅助
+mixin componentName(type, name, variant = '')
+  - let fullName = `${type}-${name}`
+  - if (variant) fullName += `-${variant}`
+  = fullName
+
+//- 🎨 样式规范
+//- 
+//- 响应式断点常量
+- var BREAKPOINTS = {}
+- BREAKPOINTS.mobile = '768px'
+- BREAKPOINTS.tablet = '1024px'
+- BREAKPOINTS.desktop = '1200px'
+- BREAKPOINTS.wide = '1400px'
+
+//- 主题色彩常量  
+- var THEME_COLORS = {}
+- THEME_COLORS.primary = 'var(--solitude-primary)'
+- THEME_COLORS.secondary = 'var(--solitude-secondary)'
+- THEME_COLORS.accent = 'var(--solitude-accent)'
+- THEME_COLORS.text = 'var(--solitude-text)'
+- THEME_COLORS.background = 'var(--solitude-bg)'
+
+//- 间距常量
+- var SPACING = {}
+- SPACING.xs = '0.25rem'
+- SPACING.sm = '0.5rem'
+- SPACING.md = '1rem'
+- SPACING.lg = '1.5rem'
+- SPACING.xl = '2rem'
+- SPACING.xxl = '3rem'
+
+//- 🔧 实用工具
+//- 
+//- 安全的属性访问
+mixin safeGet(obj, path, defaultValue = '')
+  - const value = path.split('.').reduce((o, p) => o && o[p], obj)
+  = value !== undefined ? value : defaultValue
+
+//- 条件类名
+mixin conditionalClass(baseClass, condition, additionalClass = '')
+  - let classes = baseClass
+  - if (condition && additionalClass) classes += ` ${additionalClass}`
+  = classes
+
+//- 多语言文本
+mixin i18nText(key, fallback = '')
+  - const text = _p(key)
+  = text || fallback || key

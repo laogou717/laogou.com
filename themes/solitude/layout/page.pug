@@ -1,0 +1,58 @@
+//- ===========================================
+//- 页面模板
+//- ===========================================
+
+extends includes/layout.pug
+
+include includes/mixins/common.pug
+
+//- 页面类型路由处理
+
+//- 页面内容渲染mixin
+mixin pageContent()
+  #page
+    case page.type
+      when 'message'
+        if page.banner
+          include includes/widgets/page/banner
+        != partial('includes/page/message', {}, {cache: true})
+      when 'recentcomment'
+        != partial('includes/page/recentcomment', {}, {cache: true})
+      when 'banner'
+        include includes/widgets/page/banner
+        if page.container
+          include includes/page/default
+        else
+          != page.content
+      default
+        case page.type
+          when 'categories'
+            include includes/page/categories
+          when 'tags'
+            include includes/page/tags
+          when 'links'
+            include includes/page/links
+          when 'about'
+            include includes/page/about
+          when 'brevity'
+            include includes/page/brevity
+          when 'kit'
+            include includes/page/kit
+          when 'music'
+            include includes/page/music
+          default
+            if page.banner
+              include includes/widgets/page/banner
+            include includes/page/default
+    
+    //- 评论区域
+    if page.comment
+      include includes/widgets/third-party/comments/comment
+
+block content
+  main.layout#content-inner(class=page.aside ? '' : 'hide-aside')
+    +pageContent()
+    
+    //- 侧边栏
+    +conditionalWrapper(page.aside)
+      include includes/widgets/aside/aside

@@ -1,0 +1,51 @@
+//- ===========================================
+//- 首页模板
+//- ===========================================
+
+extends includes/layout
+
+include includes/mixins/common.pug
+
+//- 首页顶部区域组件
+mixin homeTop()
+  +conditionalWrapper(theme.hometop.enable || (theme.brevity.home_mini && theme.brevity.enable))
+    #home_top
+      if theme.brevity.home_mini && theme.brevity.enable
+        include ./includes/widgets/home/bbTimeList
+      if theme.hometop.enable && is_home_first_page()
+        include ./includes/widgets/home/hometop
+
+//- 分类栏组件
+mixin categoryBar()
+  #category-bar
+    include ./includes/widgets/home/categoryBar
+
+//- 文章列表组件
+mixin postsList()
+  //- 将热门评论脚本从 .recent-posts 容器外部引入，避免成为 flex 子项影响布局
+  +conditionalWrapper(theme.comment.hot_tip.enable)
+    include ./includes/widgets/third-party/hot/index.pug
+
+  .recent-posts#recent-posts
+    each post, index in page.posts.sort("-sticky" || "-date").data
+      //- 首页过滤：带 hide_in_home:true 或属于排除分类的文章不在首页展示
+      - var excluded = inCategories(post, theme.home_exclude_categories || [])
+      if !post.hide_in_home && !excluded
+        include ./includes/widgets/home/postList
+
+    //- 分页导航
+    include ./includes/mixins/pagination
+
+//- 首页主内容组件
+mixin homeContent()
+  main.layout#content-inner
+    #home
+      +categoryBar()
+      +postsList()
+    
+    //- 侧边栏
+    include ./includes/widgets/aside/aside
+
+block content
+  +homeTop()
+  +homeContent()
