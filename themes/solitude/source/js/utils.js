@@ -124,8 +124,19 @@
       };
 
       if (lightboxType === "mediumZoom") {
-        mediumZoom &&
+        if (typeof mediumZoom !== 'undefined') {
           mediumZoom(selector, { background: "var(--efu-card-bg)" });
+        } else {
+          // Wait for mediumZoom to load
+          const checkMediumZoom = () => {
+            if (typeof mediumZoom !== 'undefined') {
+              mediumZoom(selector, { background: "var(--efu-card-bg)" });
+            } else {
+              setTimeout(checkMediumZoom, 100);
+            }
+          };
+          checkMediumZoom();
+        }
       } else if (lightboxType === "fancybox") {
         selector.forEach((i) => {
           if (i.parentNode.tagName !== "A") {

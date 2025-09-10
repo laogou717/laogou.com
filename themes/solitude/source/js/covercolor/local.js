@@ -1,5 +1,11 @@
 const coverColor = (music = false) => {
     if (music) {
+        // 如果文章已经设置了主题色，音乐封面不应该覆盖它
+        const pageColor = PAGE_CONFIG.color;
+        if (pageColor) {
+            return; // 文章有主题色时，音乐封面不覆盖
+        }
+        
         var coverPath = document.querySelector("#nav-music .aplayer-pic").style.backgroundImage;
         const coverPathMatch = /url\("([^"]+)"\)/.exec(coverPath);
         coverPath = coverPathMatch ? coverPathMatch[1] : '';
@@ -8,9 +14,19 @@ const coverColor = (music = false) => {
         }
     }
     else {
-        const pageColor = PAGE_CONFIG.color || document.getElementById("post-cover")?.src;
+        const pageColor = PAGE_CONFIG.color;
+        const postCover = document.getElementById("post-cover")?.src;
+        
         if (pageColor) {
-            localColor(pageColor);
+            // 如果是颜色值（以#开头），直接设置主题色
+            if (pageColor.startsWith('#')) {
+                setThemeColors(pageColor);
+            } else {
+                // 如果是图片路径，使用 ColorThief 提取颜色
+                localColor(pageColor);
+            }
+        } else if (postCover) {
+            localColor(postCover);
         } else {
             setDefaultThemeColors();
         }

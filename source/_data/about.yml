@@ -107,12 +107,12 @@ personalities:
   title: 提倡者
   color: "#800080"
   type: INTP-T
-  image: https://tvax3.sinaimg.cn/large/006yNU4zly1i55aorace0j30b40b5jsj.jpg
+  image: https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/images400.png
   link: https://www.16personalities.com/intp-personality
   linkText: 16personalities
   typeLink: https://www.16personalities.com/intp-personality
   typeName: 逻辑学家
-  myphoto: https://tvax4.sinaimg.cn/large/006yNU4zly1i55b4oszi2j31yi0u0twp.jpg
+  myphoto: https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/images9月7日.png
 
 # 座右铭
 motto:
@@ -129,7 +129,7 @@ expertise:
 # 游戏模块
 game:
   - title: 游戏爱好
-    img: https://tvax2.sinaimg.cn/large/006yNU4zly1i558djw84lj31jk0rstfx.jpg
+    img: https://cdn.akamai.steamstatic.com/steam/apps/304430/capsule_616x353.jpg
     subtitle: INSIDE
     box_shadow: "0 -69px 203px 11px #04120f inset"
     tips_right: "最爱的一款游戏"

@@ -31,14 +31,14 @@ nav:
   # Left Box
   # 左侧盒子
   group_icon:
-        type: svg
-        value: |
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <circle cx="7"  cy="7"  r="4"/>
-            <circle cx="17" cy="7"  r="4"/>
-            <circle cx="7"  cy="17" r="4"/>
-            <circle cx="17" cy="17" r="4"/>
-          </svg>
+    type: svg
+    value: |
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <circle cx="7"  cy="7"  r="4"/>
+        <circle cx="17" cy="7"  r="4"/>
+        <circle cx="7"  cy="17" r="4"/>
+        <circle cx="17" cy="17" r="4"/>
+      </svg>
   group:
     项目: # name
       测试工具: https://github.com/everfu/hexo-theme-solitude || https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/images我的头像.png # name: url || icon
@@ -332,7 +332,7 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss average color
-    mode: api
+    mode: local
     # api address / api 地址
     api: https://api.qjqq.cn/api/Imgcolor?img=
     # Storage / 缓存时间
@@ -827,7 +827,7 @@ twikoo: # https://twikoo.js.org/
   envId: https://twikoo.laogou717.com
   region: # Environment locale, default is ap-shanghai, Tencent cloud environment fill ap-shanghai or ap-guangzhou; Vercel environment do not fill the.
   style: true # Use custom styles when turned on
-  accessToken: 
+  accessToken:
   option:
     # 自定义表情（OwO/Twikoo 兼容），从 source 目录发布，最终路径为 /emoji/heo.json
     emoticon:
