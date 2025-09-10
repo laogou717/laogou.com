@@ -2,7 +2,7 @@
 title: "火爆全网的生图工具: “nano banana” 怎么无限使用?"
 description: "Google「Nano-Banana」生图/修图模型一文速懂：能做什么、哪里用、怎么出3D手办?"
 date: "2025-09-10"
-cover: https://tvax3.sinaimg.cn/large/006yNU4zly1i580qcxbhtj30k408mdgb.jpg
+cover: https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesnanobanana.jpg
 categories: AI纪元
 color: "#201D24"
 tags:

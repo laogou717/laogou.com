@@ -2,7 +2,7 @@
 title: "本地部署 DeepSeek R1 无审查版本"
 description: "详细介绍如何在本地部署 Ollama 和 DeepSeek R1 模型，包括环境配置、模型管理和 WebUI 对接等内容"
 date: "2025-02-10"
-cover: https://tvax4.sinaimg.cn/large/006yNU4zly1i57wpnbiz0j30k408m74n.jpg
+cover: https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/images跳过审查.jpg
 categories: AI纪元
 color: '#568B35'
 tags:
