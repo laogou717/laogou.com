@@ -21,7 +21,7 @@ site:
   name:
     class: text # text / i_class / img
     custom: 神烦老狗 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  icon: https://image.laogou717.com/file/image/blog/1757591936716_绿色系.png # Site icon / 网站图标
+  icon: https://image.laogou717.com/file/image/blog/1757594391083_黑白.png # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -41,7 +41,7 @@ nav:
       </svg>
   group:
     项目: # name
-      测试工具: https://github.com/everfu/hexo-theme-solitude || https://image.laogou717.com/file/image/blog/1757591936716_绿色系.png # name: url || icon
+      测试工具: https://github.com/everfu/hexo-theme-solitude || https://image.laogou717.com/file/image/blog/1757594391083_黑白.png # name: url || icon
 
   # Menu
   menu:
@@ -147,7 +147,7 @@ aside:
   # 信息卡
   my_card:
     author:
-      img: https://image.laogou717.com/file/image/blog/1757591936716_绿色系.png # url
+      img: https://image.laogou717.com/file/image/blog/1757594391083_黑白.png # url
       sticker: https://image.laogou717.com/file/image/blog/1757590759703_image.png # url, 24x24 size
     # 介绍 / Introduction
     description: 只有迎风，风筝才能飞得更高。
@@ -257,7 +257,7 @@ post:
     # 版权
     copyright:
       enable: true
-      author: https://image.laogou717.com/file/image/blog/1757591936716_绿色系.png # url
+      author: https://image.laogou717.com/file/image/blog/1757594391083_黑白.png # url
       # License
       # 许可证
       license: CC BY-NC-SA 4.0
@@ -349,8 +349,8 @@ post:
 # --------------------------- start ---------------------------
 # Custom Theme Color
 theme_color:
-  dark: "#8bcb96" # dark
-  light: "#3ebb4f" # light
+  dark: "#D4722D" # dark
+  light: "#272727" # light
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -373,7 +373,8 @@ font:
   code-font-size: 16px
   # Global font
   # 全局字体
-  font-family: "PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
+  font-family:
+    global: "Alibaba PuHuiTi, PingFang SC, Hiragino Sans GB, Microsoft YaHei, sans-serif"
   # Code font
   # 代码字体
   code-font-family: '"monospace", monospace'
@@ -534,7 +535,7 @@ rightside:
 footer:
   # 社交图标
   information:
-    author: https://image.laogou717.com/file/image/blog/1757591936716_绿色系.png # img url / false
+    author: https://image.laogou717.com/file/image/blog/1757594391083_黑白.png # img url / false
     left:
       X-Twitter: https://x.com/shenfanlaogou || fab fa-x-twitter # 名称: 链接 || 图标
       Github: https://github.com/laogou717 || fab fa-github # 名称: 链接 || 图标
@@ -578,7 +579,7 @@ footer:
         - fab fa-creative-commons-nd
     - name: 神烦老狗
       url: https://boringbay.com/
-      img: https://image.laogou717.com/file/image/blog/1757591936716_绿色系.png
+      img: https://image.laogou717.com/file/image/blog/1757594391083_黑白.png
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -654,7 +655,7 @@ loading:
   fullpage: true
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
-  favicon: https://image.laogou717.com/file/image/blog/1757591936716_绿色系.png
+  favicon: https://image.laogou717.com/file/image/blog/1757594391083_黑白.png
   # Pace loading
   # Pace 加载
   pace: true
@@ -763,6 +764,7 @@ extends:
   # 插入到 head
   head:
     - <link rel="stylesheet" href="/schedule/schedule.css">
+    - <link rel="stylesheet" href="/css/custom-fonts.css">
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 
   # Insert in body

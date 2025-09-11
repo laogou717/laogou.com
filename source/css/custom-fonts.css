@@ -1,0 +1,75 @@
+/* 阿里巴巴普惠体 3.0 字体定义 - 优化版本 */
+
+/* Regular 字重 (400) */
+@font-face {
+  font-family: 'Alibaba PuHuiTi';
+  src: url('/fonts/AlibabaPuHuiTi-3-55-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium 字重 (500) */
+@font-face {
+  font-family: 'Alibaba PuHuiTi';
+  src: url('/fonts/AlibabaPuHuiTi-3-65-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold 字重 (700) */
+@font-face {
+  font-family: 'Alibaba PuHuiTi';
+  src: url('/fonts/AlibabaPuHuiTi-3-85-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Heavy 字重 (800) */
+@font-face {
+  font-family: 'Alibaba PuHuiTi';
+  src: url('/fonts/AlibabaPuHuiTi-3-105-Heavy.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Black 字重 (900) */
+@font-face {
+  font-family: 'Alibaba PuHuiTi';
+  src: url('/fonts/AlibabaPuHuiTi-3-115-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 全局字体应用 */
+body {
+  font-family: 'Alibaba PuHuiTi', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* 标题字体 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alibaba PuHuiTi', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 700;
+}
+
+/* 文章内容字体 */
+.post-content, .page-content, article {
+  font-family: 'Alibaba PuHuiTi', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+}
+
+/* 强调文本 */
+strong, b {
+  font-weight: 700;
+}
+
+/* 导航和菜单 */
+.navbar, .menu, .nav {
+  font-family: 'Alibaba PuHuiTi', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 500;
+}
