@@ -1,0 +1,391 @@
+{
+    "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_bizui.png' style='width: 30px;top: 4px;position: relative;' title='heybox'>": {
+        "type": "image",
+        "container": [
+            {
+                "text": "Heybox-expression_cube",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_bingbujiandan",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_bingbujiandan.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_bizui",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_bizui.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_cangsang",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_cangsang.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_dalian",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_dalian.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_doge",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_doge.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_gandong",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_gandong.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_guai",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_guai.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_gugu",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_gugu.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_han",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_han.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_hbi",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_hbi.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_heirenwenhao",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_heirenwenhao.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_huaji",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_huaji.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_jiayou",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_jiayou.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_jingya",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_jingya.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_kaixin",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_kaixin.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_ku",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_ku.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_kun",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_kun.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_kuqi",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_kuqi.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_nu",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_nu.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_penshui",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_penshui.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_qiliang",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_qiliang.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_shengqi",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_shengqi.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_shuijiao",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_shuijiao.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_tanqi",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_tanqi.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_tanshou",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_tanshou.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_tu",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_tu.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_wa",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_wa.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_weiqu",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_weiqu.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_weixiao",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_weixiao.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_wulianku",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_wulianku.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_xia",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_xia.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_xiaocry",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_xiaocry.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_xihuan",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_xihuan.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_xuexi",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_xuexi.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_yun",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_yun.png'>"
+            },
+            {
+                "text": "Heybox-expression_cube_zan",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_cube_zan.png'>"
+            },
+            {
+                "text": "Heybox-expression_heyboxgirl",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heyboxgirl.png'>"
+            },
+            {
+                "text": "Heybox-expression_heyboxgirl_v2",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heyboxgirl_v2.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_aidao",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_aidao.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_baipiaoguai",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_baipiaoguai.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_chi",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_chi.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_chigua",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_chigua.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_eihei",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_eihei.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_haha",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_haha.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_haixiu",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_haixiu.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_henaicha",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_henaicha.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_huaji",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_huaji.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_jing",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_jing.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_jixialai",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_jixialai.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_kaikele",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_kaikele.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_ku",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_ku.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_kujiuruhou",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_kujiuruhou.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_nielian",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_nielian.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_qiaokaixin",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_qiaokaixin.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_qiehua",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_qiehua.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_rua",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_rua.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_toukan",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_toukan.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_tu",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_tu.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_wuyu",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_wuyu.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_xihuan",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_xihuan.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_yiwen",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_yiwen.png'>"
+            },
+            {
+                "text": "Heybox-expression_heygirl_zhe",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heygirl_zhe.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_1",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_1.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_10",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_10.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_11",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_11.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_12",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_12.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_13",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_13.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_14",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_14.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_15",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_15.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_16",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_16.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_17",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_17.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_18",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_18.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_19",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_19.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_2",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_2.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_20",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_20.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_21",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_21.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_22",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_22.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_23",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_23.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_24",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_24.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_25",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_25.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_26",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_26.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_27",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_27.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_28",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_28.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_29",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_29.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_3",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_3.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_30",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_30.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_31",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_31.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_32",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_32.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_4",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_4.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_5",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_5.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_6",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_6.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_7",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_7.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_8",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_8.png'>"
+            },
+            {
+                "text": "Heybox-expression_heziji_9",
+                "icon": "<img src='https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/Heybox/expression_heziji_9.png'>"
+            }
+        ]
+    }
+}
