@@ -1,13 +1,9 @@
 - content: 👏欢迎来到www.laogou717.com
   date: 2025-01-01 00:00
-- content: B站视频短文
+- content: Emo的大肥猫
   date: 2025-01-01 00:00
   video:
-    bilibili: BV1AH4y1p7mF
-- content: 外链视频短文
-  date: 2025-01-01 00:00
-  video:
-    player: 视频直链
+    bilibili: BV12k4y197v6
 - content: 焦虑 焦虑 焦虑 😢
   date: 2025-01-01 00:00
   aplayer:
@@ -29,3 +25,22 @@
 - content: 地点短文
   date: 2025-01-01 00:00
   location: 发布地点
+- content: 最终还是把域名转移到了Cloudflare上 😌
+  date: 2024-09-03
+  image:
+    - https://img.laogou717.com/file/d749a9314c9861c45ed13.png
+
+- content: 距离开工还剩两天,根本睡不着,完全不想上班啊...
+  date: 2024-02-15 03:55:00
+  address: 卧室
+  from: Jonas
+  aplayer:
+    server: netease
+    id: 1836462679
+  link: https://music.163.com/#/song?id=1836462679
+
+- content: OneAPI部署其实没有大家想的那么复杂，找个免费的SQL数据库对照着文档做基本不会有大问题。
+  date: 2024-04-11
+  link: https://github.com/songquanpeng/one-api
+  image:
+    - https://img.laogou717.com/file/335d626feb22b52bc4ade.jpg
