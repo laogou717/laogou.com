@@ -43,6 +43,7 @@
   font-weight: 700;
   align-items: center;
   display: flex;
+  color: var(--efu-fontcolor);
 }
 
 #calendar-date {
@@ -69,6 +70,7 @@
 
 #calendar-solar {
   bottom: 2.1rem;
+  color: var(--efu-fontcolor);
 }
 
 #calendar-lunar {
@@ -124,7 +126,7 @@
   display: flex;
 }
 
-#card-widget-schedule .item-content > div {
+#card-widget-schedule .item-content>div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -154,6 +156,8 @@
   margin-right: 5px;
   text-align: center;
   font-size: 12px;
+  color: var(--efu-fontcolor);
+  font-weight: 500;
 }
 
 .schedule-d1 {
@@ -164,12 +168,10 @@
 }
 
 progress::-webkit-progress-bar {
-  background: linear-gradient(
-    to right,
-    var(--efu-main-op-deep),
-    var(--efu-main-op),
-    var(--efu-main-op-light)
-  );
+  background: linear-gradient(to right,
+      var(--efu-main-op-deep),
+      var(--efu-main-op),
+      var(--efu-main-op-light));
   border-radius: 5px;
   overflow: hidden;
 }
@@ -191,15 +193,25 @@ progress::-webkit-progress-value {
 
 .aside-span1 {
   margin-left: 5px;
+  color: white;
+  font-weight: 600;
+  mix-blend-mode: difference;
+  z-index: 2;
 }
 
 .aside-span2 {
   right: 20px;
-  color: var(--efu-secondtext);
+  color: white;
+  font-weight: 300;
+  mix-blend-mode: difference;
+  z-index: 2;
 }
 
 .aside-span2 a {
   margin: 0 3px;
+  color: white;
+  font-weight: 600;
+  mix-blend-mode: difference;
 }
 
 #pBar_month,

@@ -127,51 +127,48 @@
           white-space nowrap
 
   .toPageGroup
-    display flex
+    display inline-flex
     position relative
     margin 0 .3rem
+    align-items center
     +maxWidth768()
       display none
-
-    a#toPageButton
-      display flex
-      position absolute
-      width 40px
-      height 40px
-      right 0
-      top 0
-      border-radius 8px
-      justify-content center
-      align-items center
-      transition .3s
-      background var(--efu-card-bg)
-      border var(--style-border-always)
-      cursor text
-      pointer-events none
-
-    &:focus-within a#toPageButton, &:hover a#toPageButton
-      width 30px
-      height 30px
-      right 4px
-      top 5px
-      background var(--efu-card-bg)
-      border 1px solid var(--efu-none)
-      border-radius 4px
-      opacity .2
 
     input
       width 40px
       height 40px
-      border-radius 8px
+      border-radius 8px 0 0 8px
       border var(--style-border-always)
+      border-right none
       transition .3s
       outline-style none
       font-size 16px
       padding-left 12px
       background var(--efu-secondbg)
       color var(--efu-fontcolor)
+      flex-shrink 0
 
       &:focus, /#pagination .toPageGroup:hover input
         border var(--style-border-hover-always)
+        border-right none
         outline-style none
         width 100px
+
+    a#toPageButton
+      display flex
+      width 40px
+      height 40px
+      border-radius 0 8px 8px 0
+      justify-content center
+      align-items center
+      transition .3s
+      background var(--efu-card-bg)
+      border var(--style-border-always)
+      cursor pointer
+      pointer-events auto
+      flex-shrink 0
+
+      &:hover
+        background var(--efu-theme)
+        color var(--efu-white)
+        border var(--style-border-hover-always)

@@ -1,6 +1,6 @@
 ---
 title: 无服务器一键部署OneAPI 使用指南。
-cover: https://image.laogou717.com/file/image/blog/1757589444400_image.png
+cover: https://image.laogou717.com/file/image/blog/1757589423811_image.png
 categories: AI纪元
 date: 2024/04/14 05:28:00
 color: '#730a09'

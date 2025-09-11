@@ -32,27 +32,38 @@ function cardRefreshTimes() {
   const e = document.getElementById("card-widget-schedule");
   if (e) {
     asideDay = (now - asideTime) / 1e3 / 60 / 60 / 24;
+    
+    // 年进度条
+    const yearProgress = (asideDay / 365) * 100;
     e.querySelector("#pBar_year").value = asideDay;
-    e.querySelector("#p_span_year").innerHTML =
-      ((asideDay / 365) * 100).toFixed(1) + "%";
+    e.querySelector("#p_span_year").innerHTML = yearProgress.toFixed(1) + "%";
     e.querySelector(
       ".schedule-r0 .schedule-d1 .aside-span2"
     ).innerHTML = `还剩<a> ${(365 - asideDay).toFixed(0)} </a>天`;
+    
+    // 月进度条
+    const monthProgress = (date / dates) * 100;
     e.querySelector("#pBar_month").value = date;
     e.querySelector("#pBar_month").max = dates;
-    e.querySelector("#p_span_month").innerHTML =
-      ((date / dates) * 100).toFixed(1) + "%";
+    e.querySelector("#p_span_month").innerHTML = monthProgress.toFixed(1) + "%";
     e.querySelector(
       ".schedule-r1 .schedule-d1 .aside-span2"
     ).innerHTML = `还剩<a> ${dates - date} </a>天`;
+    
+    // 周进度条
+    const weekProgress = ((week === 0 ? 7 : week) / 7) * 100;
     e.querySelector("#pBar_week").value = week === 0 ? 7 : week;
-    e.querySelector("#p_span_week").innerHTML =
-      (((week === 0 ? 7 : week) / 7) * 100).toFixed(1) + "%";
+    e.querySelector("#p_span_week").innerHTML = weekProgress.toFixed(1) + "%";
     e.querySelector(
       ".schedule-r2 .schedule-d1 .aside-span2"
     ).innerHTML = `还剩<a> ${7 - (week === 0 ? 7 : week)} </a>天`;
+    
+    // mix-blend-mode CSS属性会自动处理文字颜色混合，无需JavaScript干预
   }
 }
+
+// 使用CSS mix-blend-mode属性自动处理文字与进度条的颜色混合
+// 无需复杂的JavaScript遮罩逻辑
 
 function cardTimes() {
   year = now.getFullYear();
