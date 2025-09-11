@@ -1,6 +1,6 @@
 ---
 title: 24年最佳国内Newbing镜像!秒过验证!
-cover: https://img.laogou717.com/file/121f4ea52cbed7f3f7b78.jpg
+cover: https://image.laogou717.com/file/image/blog/1757589078879_image.png
 categories: AI纪元
 date: 2024-02-06T18:55:44.000Z
 color: '#5B5B89'

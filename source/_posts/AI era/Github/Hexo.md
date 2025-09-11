@@ -1,6 +1,6 @@
 ---
 title: 一篇非常啰嗦的Hexo搭建教程
-cover: https://img.laogou717.com/file/e32c629a206fa62eb12ea.jpg
+cover: https://image.laogou717.com/file/image/blog/1757589386148_image.png
 categories: 搭建网站
 date: 2024/07/31 00:30:00
 color: '#007acc'

@@ -1,10 +1,10 @@
 ---
 date: 2021-12-23T23:49:20.000Z
-updated: 2024-02-06T06:51:21.642Z
+updated: 2025-09-06T06:51:21.642Z
 title: 老狗自制100+综艺花字包！
 categories: 影视后期
 type: post
-cover: https://img.laogou717.com/file/431e663f3a6ef92b51528.jpg
+cover: https://image.laogou717.com/file/image/blog/025677tH.png
 color: '#D7CCCA'
 tags:
   - Pr模板

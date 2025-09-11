@@ -2,7 +2,7 @@
 title: "解决 Deepseek 官网卡顿与联网问题的全攻略"
 description: "在本期文章中，我将与大家分享如何解决 Deepseek 官网卡顿的问题，以及解答新手常见的疑问。"
 date: "2025-02-17"
-cover: https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesAPI.jpg
+cover: https://image.laogou717.com/file/image/blog/1757589038405_image.png
 categories: AI纪元
 color: '#686DF5'
 tags:

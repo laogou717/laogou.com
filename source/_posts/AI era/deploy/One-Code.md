@@ -3,7 +3,7 @@ date: 2024-02-27T08:45:48.976Z
 updated: 2024-02-27T08:47:02.527Z
 title: 一行代码本地运行 AI 模型
 categories: AI纪元
-cover: https://img.laogou717.com/file/bd45246b0536b4bc3879c.jpg
+cover: https://image.laogou717.com/file/image/blog/1757589239479_image.png
 main_color: '#000000'
 tags:
   - AI

@@ -3,7 +3,7 @@ date: 2024-02-05T14:27:38.087Z
 updated: 2024-02-12T07:40:58.624Z
 title: 国内怎么部署go-proxy-bingai项目
 categories: AI纪元
-cover: https://img.laogou717.com/file/f4ed7ab731a20132b596f.jpg
+cover: https://image.laogou717.com/file/image/blog/1757588542557_image.png
 color: '#4A10D1'
 tags:
   - AI

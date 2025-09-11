@@ -1,6 +1,6 @@
 ---
 title: 无限试用会员!GPT4、Claude3.5免费用！
-cover: https://img.laogou717.com/file/ddf91aaf6230fcc5ed00b.jpg
+cover: https://image.laogou717.com/file/image/blog/1757590046881_image.png
 categories: AI纪元
 date: 2024/08/23 15:30:00
 color: '#2e3038'

@@ -2,7 +2,7 @@
 date: 2024-01-13T08:47:26.563Z
 title: Open-Interpreter部署教程]五分钟部署一个自己的桌面贾维斯!!!
 categories: AI纪元
-cover: https://img.laogou717.com/file/fff125fe3bbd53828d32f.jpg
+cover: https://image.laogou717.com/file/image/blog/1757589507464_image.png
 color: '#1E3A6B'
 updated: 2024-10-02T00:00:00.000Z
 tags:

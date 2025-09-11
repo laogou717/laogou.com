@@ -2,7 +2,7 @@
 title: "彻底搞懂 MCP：模型上下文协议详解"
 description: "详细解析 MCP（模型上下文协议）的概念、原理和实际应用，帮助你理解 AI 助手如何连接外部资源"
 date: "2025-03-06"
-cover: https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesMCP.jpg
+cover: https://image.laogou717.com/file/image/blog/1757589410227_image.png
 categories: AI纪元
 color: '#B88966'
 tags:

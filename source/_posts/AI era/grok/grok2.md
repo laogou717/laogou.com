@@ -2,7 +2,7 @@
 title: Grok2使用流程 玩转Grok-2！免费25美元额度
 description: 玩转Grok-2！免费25美元额度
 date: 2024-11-20T00:00:00.000Z
-cover: https://i.111666.best/image/PzigGwbxKPtJVIJvQz37YG.png
+cover: https://image.laogou717.com/file/image/blog/1757589887428_image.png
 tags:
   - AI
   - grok2

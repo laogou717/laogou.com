@@ -9,31 +9,26 @@
   aplayer:
     server: netease # 音乐服务商，如netease
     id: 1979723287 # 单曲id，不了解具体查看方法建议询问搜索引擎
-- content: 图片短文（无图片描述）
+- content: 总是怀念过去的日子,好像那才是活着的证据
   date: 2025-01-01 00:00
   image:
-    - https://bu.dusays.com/2025/08/12/689a2b8c80875.png
-    - https://bu.dusays.com/2025/08/12/689a2b8c80875.png
-- content: 图片短文（有图片描述）
+    - https://image.laogou717.com/file/image/blog/pLRiZhju.jpg
+    - https://image.laogou717.com/file/image/blog/18wZ9B00.jpg
+    - https://image.laogou717.com/file/image/blog/9dWMivyN.jpg
+- content: 有人问我为什么名字叫做老狗? 因为我家真的养过一条狗
   date: 2025-01-01 00:00
   image:
-    - url: https://bu.dusays.com/2025/08/12/689a2b8c80875.png
-      alt: 占位图
-- content: 链接短文
-  date: 2025-01-01 00:00
-  link: 链接
-- content: 地点短文
-  date: 2025-01-01 00:00
-  location: 发布地点
+    - https://image.laogou717.com/file/image/blog/meQnVM7W.jpeg
+    - https://image.laogou717.com/file/image/blog/vWSv85H6.jpeg
+    - https://image.laogou717.com/file/image/blog/4BmiLqDN.jpeg
 - content: 最终还是把域名转移到了Cloudflare上 😌
   date: 2024-09-03
   image:
     - https://img.laogou717.com/file/d749a9314c9861c45ed13.png
-
 - content: 距离开工还剩两天,根本睡不着,完全不想上班啊...
   date: 2024-02-15 03:55:00
-  address: 卧室
-  from: Jonas
+  location: 卧室
+  from: 老狗
   aplayer:
     server: netease
     id: 1836462679

@@ -1,6 +1,6 @@
 ---
 title: 逆天网友!我早晚被笑死!用AI让郭德纲用英文讲相声!
-cover: https://img.laogou717.com/file/9faff1a0593aee30d720d.jpg
+cover: https://image.laogou717.com/file/image/blog/1757588451171_image.png
 categories: AI纪元
 date: 2023/10/27 08:00:00
 color: '#CE9F35'

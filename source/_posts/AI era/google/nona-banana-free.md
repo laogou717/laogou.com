@@ -2,7 +2,7 @@
 title: "火爆全网的生图工具: “nano banana” 怎么无限使用?"
 description: "Google「Nano-Banana」生图/修图模型一文速懂：能做什么、哪里用、怎么出3D手办?"
 date: "2025-09-10"
-cover: https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesnanobanana.jpg
+cover: https://image.laogou717.com/file/image/blog/1757589592599_image.png
 categories: AI纪元
 color: "#201D24"
 tags:
@@ -14,20 +14,20 @@ ai_text: "Google「Nano-Banana」生图/修图模型一文速懂：能做什么�
 
 > **Nano-Banana** 火了半个多月了,但因为身体等多方面原因,没有出相关的视频和文章,今天一次补齐。看完你就能理论无限使用这个**非常nb**的生图模型。
 
-![nano-banana](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesPasted%20image%2020250910111310.png)
+![nano-banana](https://image.laogou717.com/file/image/blog/1757589619167_imagesPasted_image_20250910111310.png)
 
 ## 一、Nano-Banana 是什么？
 
 Google 在 2025-08 的官方更新里推出 **Gemini 2.5 Flash Image**，并在多处材料中以「**nano-banana**」称呼该图像生成与编辑模型：支持**文生图**、**图+文编辑**、**多图融合/风格迁移**、**对话式局部修改**。  
-![](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesPasted%20image%2020250910111511.png)
+![](https://image.laogou717.com/file/image/blog/1757589666488_imagesPasted_image_20250910111511.png)
 - 发布与能力概览：Developers Blog；Gemini 产品博客（强调**人物/宠物一致性**、换装、融合、风格套用等场景）。
 
-![](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesPasted%20image%2020250910111342.png)
+![](https://image.laogou717.com/file/image/blog/1757589711359_imagesPasted_image_20250910111342.png)
 
 > **社区热度**：Google 高管对外披露，Nano-Banana 并入后为 Gemini App 带来 **1000 万+ 新用户**、**2 亿+ 次编辑**；“把人物/宠物做成 **3D 手办**”成为爆款玩法。  
 
-![](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesassets_task_01jq80j5v9ew9vjervtqcjjk51_img_0.webp)
-![](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesGemini_Generated_Image_gmzeqigmzeqigmze.png)
+![](https://image.laogou717.com/file/image/blog/1757589706423_imagesassets_task_01jq80j5v9ew9vjervtqcjjk51_img_0.webp)
+![](https://image.laogou717.com/file/image/blog/1757589706806_imagesGemini_Generated_Image_gmzeqigmzeqigmze.png)
 
 
 
@@ -48,14 +48,14 @@ Google 在 2025-08 的官方更新里推出 **Gemini 2.5 Flash Image**，并在�
 ## 三、哪里能用（官方/主流入口｜建议收藏）
 
 - **Gemini 网页端**（直接体验）：[https://gemini.google.com](https://gemini.google.com)（选择 **2.5 Flash**，可上传参考图或直接写提示）
-![](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesPasted%20image%2020250910124535.png)
+![](https://image.laogou717.com/file/image/blog/1757589745466_imagesPasted_image_20250910124535.png)
 
 - **Google AI Studio**（Playground）：[https://aistudio.google.com](https://aistudio.google.com)（右上角选 **Gemini 2.5 Flash Image / Nano-Banana**；支持“一键生成 API 代码”）
-![](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesPasted%20image%2020250910124608.png)
+![](https://image.laogou717.com/file/image/blog/1757589757489_imagesPasted_image_20250910124608.png)
 
 - **Google AI实验室 无限使用**（Image generation with Gemini / **Nano-Banana**）：[https://labs.google/fx/zh/tools/whisk](https://labs.google/fx/zh/tools/whisk)
 
-![](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesPasted%20image%2020250910125059.png)
+![](https://image.laogou717.com/file/image/blog/1757589773612_imagesPasted_image_20250910125059.png)
 
 ---
 
@@ -106,7 +106,7 @@ Shallow depth of field, studio soft lighting.
 整体套用 1980s 影楼风格，绒布幕背景与胶片颗粒。
 ```
 
-![](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesPasted%20image%2020250910125618.png)
+![](https://image.laogou717.com/file/image/blog/1757589804450_imagesPasted_image_20250910125618.png)
 
 **3) 以图改图（局部替换）**
 
@@ -115,7 +115,7 @@ Shallow depth of field, studio soft lighting.
 加入窗边逆光与皮肤高光；不要改变发型。
 ```
 
-![](https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/imagesPasted%20image%2020250910125658.png)
+![](https://image.laogou717.com/file/image/blog/1757589804531_imagesPasted_image_20250910125658.png)
 
 ---
 

@@ -2,8 +2,8 @@
 date: 2024-03-01T07:09:04.189Z
 title: 国内访问Vercel上的域名?试试这个!
 categories: 搭建网站
-cover: https://img.laogou717.com/file/d87e97b8a1c36143257bc.jpg
-main_color: '#000000'
+cover: https://image.laogou717.com/file/image/blog/1757589277831_image.png
+color: '#000000'
 tags:
   - Vercel
   - dns

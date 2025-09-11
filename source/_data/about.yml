@@ -10,7 +10,7 @@ authorinfo:
     - 不放弃无限进步 🏃
     - 现实中唯唯诺诺 🧱
     - 互联网重拳出击 💢
-  image: https://tvax1.sinaimg.cn/large/006yNU4zly1i54zn8qzmlj30sg0sgwqi.jpg
+  image: https://image.laogou717.com/file/image/blog/1757591936716_绿色系.png
 
 # 标题
 title: 关于老狗
@@ -107,12 +107,12 @@ personalities:
   title: 提倡者
   color: "#800080"
   type: INTP-T
-  image: https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/images400.png
+  image: https://image.laogou717.com/file/image/blog/1757590617148_image.png
   link: https://www.16personalities.com/intp-personality
   linkText: 16personalities
   typeLink: https://www.16personalities.com/intp-personality
   typeName: 逻辑学家
-  myphoto: https://raw.githubusercontent.com/JonasTech0/Jonas-imgs-240211/main/images9月7日.png
+  myphoto: https://image.laogou717.com/file/image/blog/1757590324462_image.png
 
 # 座右铭
 motto:
@@ -327,5 +327,5 @@ rewardList:
 tenyear:
   tips: 十年之约
   title: 一个人的寂寞，一群人的狂欢。
-  start: 2025-01-01
-  end: 2035-01-01
+  start: 2022-11-21
+  end: 2032-11-21

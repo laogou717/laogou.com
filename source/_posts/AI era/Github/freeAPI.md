@@ -1,6 +1,6 @@
 ---
 title: 免费领取GPT4、Claude3免费API！
-cover: https://img.laogou717.com/file/bc42ac5bbbf835f97b401.jpg
+cover: https://image.laogou717.com/file/image/blog/1757589341012_image.png
 categories: AI纪元
 date: 2024-04-06T00:55:00.000Z
 color: '#014FE0'
