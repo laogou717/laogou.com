@@ -1,0 +1,167 @@
+banner_suffix:
+
+links:
+  - class_name: Nano-banana免费无限用
+    type: card
+    suffix:
+    descr: 一些Nano-banana相关的网站推荐
+    link_list:
+      - name: Gemini官网
+        link: https://gemini.google.com/app
+        avatar: https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg
+        descr: 选择2.5Flash模型即可开始做图,暂未发现对免费用户的明显限制。
+        topimg: https://image.laogou717.com/file/image/tlink/SAUp0QVi.png
+      - name: Google-labs
+        link: https://labs.google/fx/zh/tools/whisk
+        avatar: https://labs.google/fx/icons/favicon/whisk_favicon_b.svg
+        descr: 谷歌实验室推出的一款生成式人工智能图像工具。
+        topimg: https://image.laogou717.com/file/image/tlink/G2m6f09e.png
+      - name: 模型竞技场
+        link: https://lmarena.ai/
+        avatar: https://image.laogou717.com/file/image/tlink/uh3swVIs.png
+        topimg: https://image.laogou717.com/file/image/tlink/NUweRPO9.png
+        descr: 权威的大模型排行榜LMArena，是一个由加州大学伯克利分校SkyLab和LMSYS研究团队开发的开源AI模型评估平台。
+      - name: Open Router
+        link: https://openrouter.ai/
+        avatar: https://image.laogou717.com/file/image/tlink/FJ6hf3PR.png
+        descr: 一个大模型API 路由器，旨在将各种AI 模型和服务集成到一个统一的接口中。提供许多免费API。
+        topimg: https://image.laogou717.com/file/image/tlink/FflVYn85.png
+      - name: Google AI Studio
+        link: https://aistudio.google.com/
+        avatar: https://image.laogou717.com/file/image/tlink/b56AqnnZ.png
+        descr: 让用户可以快速尝试不同的模型，并对各种提示进行实验。该平台几乎包含了Google所有模型和智能应用。
+        topimg: https://image.laogou717.com/file/image/tlink/GB30PDbT.png
+      - name: 即梦AI
+        link: https://jimeng.jianying.com/ai-tool/home
+        avatar: https://image.laogou717.com/file/image/tlink/tbE0TJNr.png
+        descr: 字节旗下的AI工具平台,目前升级了即梦4.0对标Nano-banana。
+        topimg: https://image.laogou717.com/file/image/blog/oCzCCIHb.png
+  #     - name: bing演示站2
+  # - class_name: Newbing项目
+  #   descr: Newbing相关演示与部署项目
+  #   type: card
+  #   suffix:
+  #   link_list:
+  #     - name: bing演示站1
+  #       link: https://bingai-az.zklcdc.xyz
+  #       avatar: https://img.laogou717.com/file/4e35cecd576a4344cb028.jpg
+  #       descr: 开发者的Azure演示站点。
+  #       topimg: https://img.laogou717.com/file/c40a49be4674e7bb9cbc0.png
+  #     - name: bing演示站2
+  #       link: https://bingai.zklcdc.xyz
+  #       avatar: https://img.laogou717.com/file/4e35cecd576a4344cb028.jpg
+  #       descr: 开发者主演示站点。
+  #       topimg: https://img.laogou717.com/file/c40a49be4674e7bb9cbc0.png
+  #     - name: bing演示站3
+  #       link: https://bingai-vercel.zklcdc.xyz
+  #       avatar: https://img.laogou717.com/file/4e35cecd576a4344cb028.jpg
+  #       descr: 开发者vercel演示站点。
+  #       topimg: https://img.laogou717.com/file/c40a49be4674e7bb9cbc0.png
+  #     - name: BingAPI演示站
+  #       link: https://bingapi.zklcdc.xyz
+  #       avatar: https://img.laogou717.com/file/4e35cecd576a4344cb028.jpg
+  #       descr: API调用演示站点
+  #       topimg: https://img.laogou717.com/file/c40a49be4674e7bb9cbc0.png
+
+  # - class_name: 相关链接
+  #   descr: 与Newbing项目相关的支持与资料
+  #   type: card
+  #   suffix:
+  #   link_list:
+  #     - name: Microsoft账号安全系统
+  #       link: https://account.live.com/activity
+  #       avatar: https://img.laogou717.com/file/5e9c3ed4d153c52ab9161.png
+  #       descr: 登陆问题可能会被拦截
+  #       topimg: https://img.laogou717.com/file/5e9c3ed4d153c52ab9161.png
+  #     - name: 支持作者
+  #       link: https://github.com/Harry-zklcdc/go-proxy-bingai
+  #       avatar: https://img.laogou717.com/file/b927bbf671020781ff99f.png
+  #       descr: 点个星星表示认可吧
+  #       topimg: https://img.laogou717.com/file/b927bbf671020781ff99f.png
+
+  # - class_name: 动手部署
+  #   descr: 自行部署Newbing相关服务
+  #   type: card
+  #   suffix:
+  #   link_list:
+  #     - name: Cloudflare
+  #       link: https://dash.cloudflare.com/
+  #       avatar: https://dash.cloudflare.com/favicon.ico
+  #       descr: 点击进入部署
+  #       topimg: https://dash.cloudflare.com/favicon.ico
+  #     - name: 部署Pass服务
+  #       link: https://github.com/Harry-zklcdc/go-bingai-pass
+  #       avatar: https://codesandbox.io/favicon.ico
+  #       descr: 一键部署人机验证服务器
+  #       topimg: https://codesandbox.io/favicon.ico
+  #     - name: 作者开源项目
+  #       link: https://github.com/Harry-zklcdc/go-proxy-bingai/wiki/%E7%99%BB%E5%BD%95%E8%B4%A6%E5%8F%B7#%E8%B4%A6%E5%8F%B7%E7%99%BB%E5%BD%95
+  #       avatar: https://img.laogou717.com/file/ff5d7119ebd13f444e4fb.png
+  #       descr: 开源项目Wiki
+  #       topimg: https://img.laogou717.com/file/ff5d7119ebd13f444e4fb.png
+
+  # - class_name: "Newbing镜像"
+  #   type: item
+  #   suffix:
+  #   descr: Newbing镜像站点
+  #   link_list:
+  #     - name: Newbing镜像
+  #       link: https://bingai-az.zklcdc.xyz/
+  #       avatar: https://img.laogou717.com/file/fe88f3f66b113d34d81f2.jpg
+  #       descr: 作者的Azurecopilot体验站点，100%通过人机验证
+  #     - name: Newbing演示站点 🏅
+  #       link: https://bingai.zklcdc.xyz/
+  #       avatar: https://img.laogou717.com/file/fe88f3f66b113d34d81f2.jpg
+  #       descr: 100%过验证,国内可用，基本兼容微软BingAI所有功能,无需登录即可畅聊。由harry-zklcdc部署至服务器上
+  #     - name: NewBing镜像站
+  #       link: https://bing.osunion.top
+  #       avatar: https://bing.osunion.top/web/img/logo.svg
+  #       descr: 100%过验证,国内可用，基本兼容微软BingAI所有功能,无需登录即可畅聊。由林冽托管至自己的服务器上
+  #     - name: Newbing更多演示站点
+  #       link: https://dongsiqie.me/
+  #       avatar: https://img.laogou717.com/file/c2f329b890db911df03d6.png
+  #       descr: 100%过验证,国内可用，基本兼容微软BingAI所有功能,无需登录即可畅聊。由冻死企鹅托管至huggingface上
+  #     - name: Newbing相关视频
+  #       link: https://www.bilibili.com/video/BV1Fe411p76P
+  #       avatar: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Web20240323161150.png
+  #       descr: 搭载GPT4 turbo!无需人机验证、无需魔法、无需登录、支持Openai API格式,老狗最喜欢的一集。
+
+  # - class_name: Gemini镜像
+  #   type: item
+  #   suffix:
+  #   descr: Gemini镜像站点
+  #   link_list:
+  #     - name: https://chatgemini.wjhtkjwz.eu.org/
+  #       link: https://chatgemini.wjhtkjwz.eu.org/
+  #       avatar: https://chatgemini.wjhtkjwz.eu.org/favicon.ico
+  #       descr: 全新https://chatgemini.wjhtkjwz.eu.org/，免魔法，免账号
+
+  # - class_name: ChatGPT镜像
+  #   type: item
+  #   suffix:
+  #   descr: ChatGPT镜像站点
+  #   link_list:
+  #     - name: 4W+ GPT4o账号共享
+  #       link: https://shared.oaifree.com
+  #       avatar: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webzhile.png
+  #       descr: zhile/秦始皇 做的无需多言
+  #     - name: Pandora
+  #       link: https://new.oaifree.com
+  #       avatar: https://cdn.jsdelivr.net/gh/JonasTech0/Jonas-imgs-240211/2024-02-11-Webzhile.png
+  #       descr: zhile/秦始皇 新做的镜像站,爷的青春真的回来了...
+  #     - name: rawchat
+  #       link: https://chat.rawchat.cc/
+  #       avatar: https://img.laogou717.com/file/4792ac10c778f15a89635.png
+  #       descr: 类Pandora镜像,可以用账户密码直接登陆
+  #     - name: 免费Claude3、GPT4 API
+  #       link: https://blog.laogou717.com/2024/04/06/AI%20era/freeAPI/
+  #       avatar: https://img.laogou717.com/file/4027f20df6d43627977a0.png
+  #       descr: 每天签到随机获取GPT4 API额度
+  #     - name: GPT-Plus共享
+  #       link: https://aitopk.com
+  #       avatar: https://img.laogou717.com/file/19c867f74795326995109.png
+  #       descr: GPT4.0免费，无需登录点击即用
+  #     - name: 免费GPT Api
+  #       link: https://github.com/chatanywhere/GPT_API_free
+  #       avatar: https://img.laogou717.com/file/06a34e87e3d789ea08fdd.png
+  #       descr: 需要一个GitHub账户，然后可能需要魔法，如果能正常打开并登录了账户，则点击"申请内测免费key"，一个GitHub账户可申请一个。GPT-4 / GPT-3.5-Turbo / GPT-3.5-Turbo-16K / embeddings / DALL·E / whisper / text-davinci等。
