@@ -92,7 +92,7 @@ mixin copyrightInfo()
   - const yearRange = startYear === currentYear ? startYear : `${startYear} - ${currentYear}`
   
   .copyright © #{yearRange} By&nbsp;
-    +link('/', config.author, { class: 'footer-bar-link' })
+    +link('/', '', { class: 'footer-bar-link' })
       img.author-avatar(src=url_for(theme.site.icon))
       = config.author
 
