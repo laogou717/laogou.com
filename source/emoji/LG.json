@@ -1,78 +1,78 @@
 {
-    "<img src='https://image.laogou717.com/file/image/blog/来点表情.png' style='width: 30px;top: 4px;position: relative;' title='老狗表情包'>": {
+    "<img src='/emoji/LG/来点表情.png' style='width: 30px;top: 4px;position: relative;' title='老狗表情包'>": {
         "type": "image",
         "container": [
             {
                 "text": "LG-100-捂嘴",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/捂嘴.png'>"
+                "icon": "<img src='/emoji/LG/捂嘴.png'>"
             },
             {
                 "text": "LG-100-不开心",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/不开心.png'>"
+                "icon": "<img src='/emoji/LG/不开心.png'>"
             },
             {
                 "text": "LG-100-点赞",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/点赞.png'>"
+                "icon": "<img src='/emoji/LG/点赞.png'>"
             },
             {
                 "text": "LG-100-搞不懂",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/搞不懂.png'>"
+                "icon": "<img src='/emoji/LG/搞不懂.png'>"
             },
             {
                 "text": "LG-100-害羞",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/害羞.png'>"
+                "icon": "<img src='/emoji/LG/害羞.png'>"
             },
             {
                 "text": "LG-100-交给我吧",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/交给我吧.png'>"
+                "icon": "<img src='/emoji/LG/交给我吧.png'>"
             },
             {
                 "text": "LG-100-开心",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/开心.png'>"
+                "icon": "<img src='/emoji/LG/开心.png'>"
             },
             {
                 "text": "LG-100-哭了",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/哭了.png'>"
+                "icon": "<img src='/emoji/LG/哭了.png'>"
             },
             {
                 "text": "LG-100-脑子",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/脑子.png'>"
+                "icon": "<img src='/emoji/LG/脑子.png'>"
             },
             {
                 "text": "LG-100-你干嘛",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/你干嘛-.png'>"
+                "icon": "<img src='/emoji/LG/你干嘛-.png'>"
             },
             {
                 "text": "LG-100-求你",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/求你.png'>"
+                "icon": "<img src='/emoji/LG/求你.png'>"
             },
             {
                 "text": "LG-100-生气",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/生气.png'>"
+                "icon": "<img src='/emoji/LG/生气.png'>"
             },
             {
                 "text": "LG-100-试试AI吧",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/试试AI吧.png'>"
+                "icon": "<img src='/emoji/LG/试试AI吧.png'>"
             },
             {
                 "text": "LG-100-刷一会手机",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/刷一会手机.png'>"
+                "icon": "<img src='/emoji/LG/刷一会手机.png'>"
             },
             {
                 "text": "LG-100-微笑",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/微笑.png'>"
+                "icon": "<img src='/emoji/LG/微笑.png'>"
             },
             {
                 "text": "LG-100-小小ai",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/小小ai.png'>"
+                "icon": "<img src='/emoji/LG/小小ai.png'>"
             },
             {
                 "text": "LG-100-写代码",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/写代码.png'>"
+                "icon": "<img src='/emoji/LG/写代码.png'>"
             },
             {
                 "text": "LG-100-怎样",
-                "icon": "<img src='https://image.laogou717.com/file/image/blog/怎样-.png'>"
+                "icon": "<img src='/emoji/LG/怎样-.png'>"
             }
         ]
     }

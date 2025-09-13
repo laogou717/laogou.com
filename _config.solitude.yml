@@ -148,7 +148,7 @@ aside:
   my_card:
     author:
       img: https://image.laogou717.com/file/image/blog/1757594391083_黑白.png # url
-      sticker: https://image.laogou717.com/file/image/blog/1757590759703_image.png # url, 24x24 size
+      sticker: https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/weibo/d_aoteman.png # url, 24x24 size
     # 介绍 / Introduction
     description: 只有迎风，风筝才能飞得更高。
     # 内容 / Content
