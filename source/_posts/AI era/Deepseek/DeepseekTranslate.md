@@ -2,7 +2,7 @@
 title: "沉浸式翻译 + DeepSeek API 打造智能翻译助手"
 description: "详细介绍如何使用 DeepSeek API 和沉浸式翻译插件打造个性化翻译助手，包括 API 配置、翻译功能设置等内容"
 date: "2025-02-11"
-cover: https://image.laogou717.com/file/image/blog/1757589126603_image.png
+cover: https://cdn.statically.io/gh/JonasTech0/Jonas-imgs-240211/main/images沉浸翻译.jpg
 categories: AI纪元
 color: '#C46487'
 tags:

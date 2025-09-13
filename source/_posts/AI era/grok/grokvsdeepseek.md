@@ -2,7 +2,7 @@
 title: "Grok3发布!跟其他AI对比表现如何呢?"
 description: "Grok3：地表最强模型？一次深入的测试与比较,Deepseek、gemini、ChatGPT均有参战"
 date: "2025-02-19"
-cover: https://image.laogou717.com/file/image/blog/1757589926812_image.png
+cover: https://cdn.statically.io/gh/JonasTech0/Jonas-imgs-240211/main/imagesGrok3.jpg
 categories: AI纪元
 color: '#0A0A0A'
 tags:

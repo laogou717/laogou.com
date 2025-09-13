@@ -2,7 +2,7 @@
 title: "Deepseek满血版API"
 description: "深入介绍 Deepseek API 的本地部署、知识库搭建以及各种开源 AI 模型的使用方法"
 date: "2025-02-10"
-cover: https://image.laogou717.com/file/image/blog/1757589118768_image.png
+cover: https://cdn.statically.io/gh/JonasTech0/Jonas-imgs-240211/main/images满血版.jpg
 categories: AI纪元
 color: '#686DF5'
 tags:
