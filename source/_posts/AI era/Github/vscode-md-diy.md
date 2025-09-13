@@ -2,7 +2,7 @@
 title: 效率！效率！！还是TM的效率！！！
 description: 一旦尝试了Vscode自定义代码片段,你会发现以前写文章像是原始人一样!通过对Md文档的某些字段进行指定来快速调用,事半功倍!
 date: 2024-09-27T00:00:00.000Z
-cover: https://image.laogou717.com/file/image/blog/1757589543711_image.png
+cover: https://cdn.statically.io/gh/JonasTech0/2025-Archive-Photo-Records/main/main/images/blog%E5%8D%9A%E5%AE%A2%E5%B0%81%E9%9D%A2.jpg
 tags:
   - AI
   - 开源项目
