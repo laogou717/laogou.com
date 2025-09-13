@@ -772,6 +772,8 @@ extends:
   body:
     - <script src="/schedule/schedule.js"></script>
     - <script src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
+    - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+    - <script>LA.init({id:"3Hp2Kvi3RkL73Zr9",ck:"3Hp2Kvi3RkL73Zr9"})</script>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 # --------------------------- end ---------------------------
 
