@@ -1,6 +1,6 @@
 # 个人博客（基于 Hexo Theme Solitude 定制）
 
-本项目基于 Hexo 主题 Solitude 进行二次开发与定制，原始主题归属与开源地址见：https://github.com/everfu，当前项目仅用于个人博客。 
+本项目基于 Hexo 主题 Solitude 进行二次开发与定制，原始主题归属与开源地址见：[https://github.com/everfu/hexo-theme-solitude](https://github.com/everfu/hexo-theme-solitude)，当前项目仅用于个人博客。 
 
 ## 本次改动与新增内容摘要
 
@@ -87,3 +87,21 @@ npm run deploy
 
 - 原始主题 Solitude 的版权与许可信息以其仓库和许可证为准（详见 `themes/solitude/LICENSE`）。
 - 本项目仅用于个人博客，感谢 Solitude 主题作者与所有相关开源依赖的贡献。
+
+## 维护策略（不再跟随上游，仅按需定制）
+
+- 本仓库内置（vendored）并二次定制了主题 Solitude，后续不再跟随上游主题更新。
+- 功能与样式改动将按需在本仓库自行实现，并通过提交记录进行追踪。
+- 保留并尊重原主题的版权与许可，持续在文档中进行致谢与来源标注。
+
+## 上游主题与文档
+
+- 上游主题：everfu/hexo-theme-solitude 仓库地址：https://github.com/everfu/hexo-theme-solitude
+- 本仓库保留的上游文档（路径）：
+  - themes/solitude/README.md
+  - themes/solitude/README_en-US.md
+  - themes/solitude/README_es-ES.md
+  - themes/solitude/README_zh-Hant.md
+  - themes/solitude/SECURITY.md
+  - themes/solitude/LICENSE
+- 说明：根级 README 不再合并上游文档的正文，仅在此处提供路径与链接以便参考。
