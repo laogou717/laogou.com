@@ -772,8 +772,7 @@ extends:
   body:
     - <script src="/schedule/schedule.js"></script>
     - <script src="https://open.lightxi.com/unpkg/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
-    - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
-    - <script>LA.init({id:"3Hp2Kvi3RkL73Zr9",ck:"3Hp2Kvi3RkL73Zr9"})</script>
+    - <script>(function(){if(location.hostname==='www.laogou717.com'){var s=document.createElement('script');s.src='https://sdk.51.la/js-sdk-pro.min.js';s.async=true;s.charset='UTF-8';s.id='LA_COLLECT';s.onload=function(){window.LA&&window.LA.init({id:'3Hp2Kvi3RkL73Zr9',ck:'3Hp2Kvi3RkL73Zr9'})};document.head.appendChild(s);}})();</script>
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 # --------------------------- end ---------------------------
 
@@ -811,7 +810,7 @@ comment:
   # Sidebar 显示总评论数
   sidebar: true
   # PV
-  pv: false
+  pv: true
   # Avatar
   avatar: https://gravatar.com/avatar
   # Hot comment tips
@@ -950,7 +949,7 @@ recent_comments:
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: true
+busuanzi: false
 # 0: Original / 1: Custom
 # 0: 原版 / 1: 自定义版
 busuanzi_use: 0

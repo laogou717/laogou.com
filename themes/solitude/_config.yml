@@ -288,7 +288,7 @@ post:
     # uv
     readtime: false
     # pv
-    pv: false
+    pv: true
     # Comment count
     # 评论数
     comment: false

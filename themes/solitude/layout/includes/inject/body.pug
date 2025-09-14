@@ -58,7 +58,7 @@ div
     if theme.fancybox
       script(defer src=url_for(theme.cdn.fancyapps_ui))
   if (theme.brevity.home_mini && theme.brevity.enable)
-    script(defer src=url_for(theme.cdn.swiper_js))
+    script(src=url_for(theme.cdn.swiper_js))
 
   if theme.post.ai.enable
     script(defer src=url_for(theme.cdn.post_ai))
@@ -109,7 +109,13 @@ div
   .js-pjax
     if is_home() && theme.brevity.enable && theme.brevity.home_mini
       script.
-        sco.initbbtalk()
+        if (window.Swiper) {
+          sco.initbbtalk();
+        } else {
+          window.addEventListener('load', function () {
+            if (window.Swiper) sco.initbbtalk();
+          });
+        }
     if page.type === 'brevity' && theme.brevity.enable
       script.
         GLOBAL_CONFIG.lightbox && utils.lightbox(document.querySelectorAll(".bber-content-img img"));

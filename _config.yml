@@ -124,3 +124,11 @@ feed:
   limit: 0
   hub:
   content: true
+
+sitemap:
+  path: sitemap.xml
+  rel: true
+  tags: true
+  categories: true
+  exclude:
+    - /404.html
