@@ -3,6 +3,12 @@ title: 隐私政策
 date: 2025-09-14 00:00:00
 updated: 2025-09-14 00:00:00
 layout: page
+cover: "https://image.laogou717.com/file/image/blog/nav/tool/9rS9434g.jpg"
+desc: 本站隐私策略说明
+banner: true
+rightend: "神烦老狗"
+rightbtn: "联系我们"
+rightbtnlink: "https://docs.qq.com/form/page/DWUNRbHJNb1Z3cWpZ"
 ---
 
 本隐私政策说明您在使用本站（www.laogou717.com，下称“本站”）时，本站如何收集、使用与保护您的信息。访问和使用本站即表示您已阅读并同意本政策。
@@ -28,7 +34,7 @@ layout: page
 
 五、您的权利
 - 您有权了解本站收集与使用您信息的方式；
-- 如您对数据使用有疑问、意见或需求（更正/删除），可通过“关于/联系”页面提供的方式与我们联系。
+- 如您对数据使用有疑问、意见或需求（更正/删除），可通过在“[联系我们](https://docs.qq.com/form/page/DWUNRbHJNb1Z3cWpZ)”中提交表单的方式与我们联系。
 
 六、未成年人保护
 - 未成年人在监护人指导下使用本站。如您是监护人并对相关数据有疑问，请联系我们处理。

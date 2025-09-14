@@ -40,8 +40,13 @@ nav:
         <circle cx="17" cy="17" r="4"/>
       </svg>
   group:
-    项目: # name
-      测试工具: https://github.com/everfu/hexo-theme-solitude || https://image.laogou717.com/file/image/blog/1757594391083_黑白.png # name: url || icon
+    我的爱好: # name
+      # 测试工具: https://github.com/everfu/hexo-theme-solitude || https://image.laogou717.com/file/image/blog/1757594391083_黑白.png # name: url || icon
+      音乐: /music/ || https://image.laogou717.com/file/image/blog/nav/tool/LibLxc2z.png
+      日记: /categories/随记/ || https://image.laogou717.com/file/image/blog/nav/tool/cNKylDHq.png
+    群组:
+      农夫删全: https://qm.qq.com/q/dfXDvWNrj2 || https://image.laogou717.com/file/image/blog/nav/tool/53qL7VHn.png
+      🐒农夫删全: https://qm.qq.com/q/XScJExTpAa || https://image.laogou717.com/file/image/blog/nav/tool/CIsobJ1B.png
 
   # Menu
   menu:
@@ -51,13 +56,13 @@ nav:
       全部分类: /categories/ || fas fa-clone
       全部标签: /tags/ || fas fa-tags
     友链:
-      朋友圈: /moments/ || fas fa-wifi
+      # 朋友圈: /moments/ || fas fa-wifi
       友情链接: /links/ || fas fa-user-group
       宝藏博主: javascript:travelling() || fas fa-gift
-    关于:
+    我的:
       关于我: /about/ || fas fa-user
       在线工具: /tlink/ || fas fa-toolbox
-      音乐馆: /music/ || fas fa-music
+      隐私协议: /privacy/ || fa-solid fa-shield-halved
 
   # Right button
   # 右侧按钮
@@ -117,7 +122,7 @@ hometop:
     sup: 一切从此开始
     title: 目标星辰大海
     url: https://www.laogou666.com/
-    img: https://image.laogou717.com/file/image/blog/1757590324462_image.png
+    img: https://image.laogou717.com/file/image/blog/nav/tool/9rS9434g.jpg
     color: "#2e3a41"
 # --------------------------- end ---------------------------
 

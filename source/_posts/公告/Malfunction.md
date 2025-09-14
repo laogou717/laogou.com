@@ -4,6 +4,7 @@ cover: https://cdn.statically.io/gh/JonasTech0/2025-Archive-Photo-Records/main/m
 categories: 公告
 author: 老狗
 date: 2025/09/14 12:00:00
+hide_in_home: true
 sticky: 1
 main_color: '#0C0C0C'
 ai_text: >-
