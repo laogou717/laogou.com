@@ -31,7 +31,7 @@ if tj || oneself
                                     const s = document.getElementById("statistic");
                                     let html = '';
                                     for (let i = 0; i < num.length; i++) {
-                                        if (i === 0 || i === num.length - 1) continue;
+                                        if (i === 0) continue; // 只跳过“最近活跃”，其余包括“总访问量”全部展示
                                         html += `<div><span>${title[i]}</span><span id="${title[i]}">${num[i]}</span></div>`;
                                     }
                                     s.innerHTML = html;

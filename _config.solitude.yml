@@ -950,7 +950,7 @@ recent_comments:
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: false
+busuanzi: true
 # 0: Original / 1: Custom
 # 0: 原版 / 1: 自定义版
 busuanzi_use: 0
@@ -960,10 +960,10 @@ busuanzi_use: 0
 # Google Adsense
 # 谷歌广告
 google_adsense:
-  enable: false
+  enable: true
   # Auto ads
   # 自动广告
-  auto_ads: false
+  auto_ads: true
   # Page-level ads
   # 页面级广告
   enable_page_level_ads: true
@@ -975,11 +975,10 @@ google_adsense:
   post_card: true
   # Post content ads
   # 文章内容广告
-  post_content: true
   # Google Adsense js
   # 谷歌广告 js
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: # ca-pub-XXXXXXXXXXXXXX
+  client: ca-pub-7233788645476299
   slot: # 4236388782
 # --------------------------- end ---------------------------
 
