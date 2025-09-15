@@ -44,9 +44,11 @@ nav:
       # 测试工具: https://github.com/everfu/hexo-theme-solitude || https://image.laogou717.com/file/image/blog/1757594391083_黑白.png # name: url || icon
       音乐: /music/ || https://image.laogou717.com/file/image/blog/nav/tool/LibLxc2z.png
       日记: /categories/随记/ || https://image.laogou717.com/file/image/blog/nav/tool/cNKylDHq.png
-    群组:
+    我的群组:
       农夫删全: https://qm.qq.com/q/dfXDvWNrj2 || https://image.laogou717.com/file/image/blog/nav/tool/53qL7VHn.png
       🐒农夫删全: https://qm.qq.com/q/XScJExTpAa || https://image.laogou717.com/file/image/blog/nav/tool/CIsobJ1B.png
+    我的项目:
+      封面获取器: https://steamcover.laogou717.com || https://image.laogou717.com/file/image/blog/nav/tool/YGcTtQLA.png
 
   # Menu
   menu:
@@ -712,7 +714,7 @@ memorial:
 # --------------------------- start ---------------------------
 # OpenGraph
 OpenGraph:
-  enable: false
+  enable: true
   options:
     # twitter_card:
     # twitter_image:
