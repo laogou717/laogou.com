@@ -203,7 +203,21 @@ const sco = {
     const $music = document.querySelector("#nav-music meting-js");
     if ($music && $music.aplayer) { 
       this.isMusicBind = true;
-      $music.onclick = () => this.musicPlaying && this.musicToggle(true);
+      // 改为事件监听并阻止冒泡，避免与容器点击冲突
+      $music.addEventListener('click', (e) => {
+        e.stopPropagation();
+        this.musicPlaying && this.musicToggle(true);
+      });
+      // 在整个胶囊容器上绑定点击：点击空白区域也可暂停
+      const $navMusic = document.querySelector('#nav-music');
+      if ($navMusic && !$navMusic.dataset.clickBound) {
+        $navMusic.addEventListener('click', (e) => {
+          // 忽略控制按钮区域，避免与按钮的 onclick 重复触发
+          if (e.target.closest('#nav-music-hoverTips')) return;
+          this.musicPlaying && this.musicToggle(true);
+        });
+        $navMusic.dataset.clickBound = 'true';
+      }
       $music.aplayer.on('loadeddata', () =>{
         coverColor(true);
       })
@@ -236,10 +250,10 @@ const sco = {
     }
   },
   musicSkipBack() {
-    document.querySelector("meting-js")?.aplayer?.skipBack();
+    document.querySelector("#nav-music meting-js")?.aplayer?.skipBack();
   },
   musicSkipForward() {
-    document.querySelector("meting-js")?.aplayer?.skipForward();
+    document.querySelector("#nav-music meting-js")?.aplayer?.skipForward();
   },
   switchCommentBarrage() {
     const commentBarrageElement = document.querySelector(".comment-barrage");
