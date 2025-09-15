@@ -2,7 +2,7 @@
 title: "Steam 封面获取器：一键获取游戏高清封面的开源工具"
 description: "开源的 Steam 游戏封面获取工具，支持 AppID/链接/关键词搜索，一键复制多尺寸官方封面，现代化 UI 设计，中英双语支持"
 date: "2025-09-15"
-cover: https://image.laogou717.com/file/image/blog/note/BeNitwAT.jpg
+cover: https://image.laogou717.com/file/image/blog/note/KWaPoAlw.jpg
 categories: 项目分享
 color: '#0a1a35'
 tags:
