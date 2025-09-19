@@ -1,6 +1,6 @@
 ---
 title: Bookmarklet小书签
-cover: https://img.laogou717.com/file/d74f8b7408a7f97da1be6.jpg
+cover: https://image.laogou717.com/file/image/blog/2024/1eznofYb.jpg
 categories: 浏览器怎么用
 date: 2024/05/14 15:30:00
 main_color: '#da4150'

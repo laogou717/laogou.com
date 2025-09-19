@@ -1,4 +1,8 @@
 - content: 👏欢迎来到www.laogou717.com
+- content: 奇怪,Vercel好像换了主机地址,完全走Vercel流量也能用
+  date: 2025-09-20 05:06
+  image:
+    - https://image.laogou717.com/file/image/blog/2024/vnCNFD0F.png
 - content: 登录了一个许久没用登录的账号,发现有个奇怪的按钮,哈吉姆你这家伙 真是的😂
   date: 2025-09-16 19:20
   image:
@@ -34,10 +38,6 @@
     - https://image.laogou717.com/file/image/blog/meQnVM7W.jpeg
     - https://image.laogou717.com/file/image/blog/vWSv85H6.jpeg
     - https://image.laogou717.com/file/image/blog/4BmiLqDN.jpeg
-- content: 最终还是把域名转移到了Cloudflare上 😌
-  date: 2024-09-03
-  image:
-    - https://img.laogou717.com/file/d749a9314c9861c45ed13.png
 - content: 距离开工还剩两天,根本睡不着,完全不想上班啊...
   date: 2024-02-15 03:55:00
   location: 卧室
@@ -46,9 +46,3 @@
     server: netease
     id: 1836462679
   link: https://music.163.com/#/song?id=1836462679
-
-- content: OneAPI部署其实没有大家想的那么复杂，找个免费的SQL数据库对照着文档做基本不会有大问题。
-  date: 2024-04-11
-  link: https://github.com/songquanpeng/one-api
-  image:
-    - https://img.laogou717.com/file/335d626feb22b52bc4ade.jpg

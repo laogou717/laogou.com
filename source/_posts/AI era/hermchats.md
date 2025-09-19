@@ -1,6 +1,6 @@
 ---
 title: Hermchats：不会封号、最好的GPT4.0、Claude3、Midjourney聚合平台。
-cover: https://img.laogou717.com/file/b1bf3413ec2bb6f3c3a40.jpg
+cover: https://image.laogou717.com/file/image/blog/2024/sQ9zDtuq.jpg
 categories: AI纪元
 date: 2024/02/28 15:30:00
 color: '#fcbe1d'

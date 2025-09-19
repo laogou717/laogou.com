@@ -1,6 +1,6 @@
 ---
 title: Midjourney 网页版全面开放，免费试用！
-cover: https://img.laogou717.com/file/0db4a98bcdb25e5dabe7f.png
+cover: https://image.laogou717.com/file/image/blog/2024/ly5FOOTD.jpg
 categories: AI纪元
 date: 2024/08/23 15:30:00
 color: '#2e3038'

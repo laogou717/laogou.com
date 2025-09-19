@@ -1,6 +1,6 @@
 ---
 title: Lobe Chat：开源、高性能的聊天机器人框架
-cover: https://img.laogou717.com/file/fa24361187fe5a189154e.jpg
+cover: https://image.laogou717.com/file/image/blog/2024/WEMLEUo7.jpg
 categories: AI纪元
 date: 2023/10/26 08:00:00
 color: '#FDD528'
@@ -79,11 +79,11 @@ LobeChat 为用户提供了一系列独特的功能，包括：
 
 本项目提供了一些额外的配置项，使用环境变量进行设置：
 
-| 环境变量      | 类型   | 描述                                       | 示例                     |
-| ------------ | ------ | ----------------------------------------- | ------------------------ |
-| OPENAI_API_KEY | 必选   | 在 OpenAI 账户页面申请的 API 密钥            | sk-xxxxxx...xxxxxx       |
-| OPENAI_PROXY_URL | 可选   | 如果手动配置了 OpenAI 接口代理，可用此配置项覆盖默认的 OpenAI API 请求基础 URL | 默认值: https://api.openai.com/v1 |
-| ACCESS_CODE  | 可选   | 访问此服务所需的密码，应为 6 位数字或字母       | awCT74 或 e3@09!        |
+| 环境变量         | 类型 | 描述                                                                           | 示例                              |
+| ---------------- | ---- | ------------------------------------------------------------------------------ | --------------------------------- |
+| OPENAI_API_KEY   | 必选 | 在 OpenAI 账户页面申请的 API 密钥                                              | sk-xxxxxx...xxxxxx                |
+| OPENAI_PROXY_URL | 可选 | 如果手动配置了 OpenAI 接口代理，可用此配置项覆盖默认的 OpenAI API 请求基础 URL | 默认值: https://api.openai.com/v1 |
+| ACCESS_CODE      | 可选 | 访问此服务所需的密码，应为 6 位数字或字母                                      | awCT74 或 e3@09!                  |
 
 # 📎参考链接
 {% link "项目主页" "[官方文档](https://github.com/lobehub/lobe-chat/wiki)" https://github.com/lobehub/lobe-chat %}

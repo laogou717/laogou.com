@@ -1,6 +1,6 @@
 ---
 title: 低价升级开通GPT4、Claude等服务!
-cover: https://img.laogou717.com/file/646d749ac90ad22bb56f9.png
+cover: https://image.laogou717.com/file/image/blog/2024/XdZ833Ew.png
 categories: AI纪元
 tags:
   - ChatGPT
