@@ -990,7 +990,7 @@ google_adsense:
       format: "fluid"
       layout_key: "-5x+cm-c-84+ne"
       slot: 2805175086
-      adtest: "on"
+      # adtest: "on"
   # Google Adsense js
   # 谷歌广告 js
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
