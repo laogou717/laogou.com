@@ -1,22 +1,7 @@
 if theme.google_adsense.enable && !theme.google_adsense.auto_ads && theme.google_adsense.aside_card
-    - var asideAttrs = theme.google_adsense.aside_attrs || {}
-    - var style = asideAttrs.style || 'display:block; text-align:center; min-height:120px; min-width: 100%'
-    - var layout = asideAttrs.layout || undefined
-    - var format = asideAttrs.format || undefined
-    - var fullWidth = asideAttrs.full_width_responsive || undefined
-    - var layoutKey = asideAttrs.layout_key || undefined
-    - var adtest = asideAttrs.adtest || undefined
-    .card-widget.card-adsense
-        ins.adsbygoogle(
-            style=style
-            data-ad-client=theme.google_adsense.client
-            data-ad-slot=theme.google_adsense.slot
-            hide-unfilled="true"
-            data-ad-layout=layout
-            data-ad-format=format
-            data-full-width-responsive=fullWidth
-            data-ad-layout-key=layoutKey
-            data-adtest=adtest
-        )
-        script.
-            (adsbygoogle = window.adsbygoogle || []).push({});
+    - var variants = theme.google_adsense.variants || {}
+    - var variantKey = item && item.startsWith('ads') ? item : 'ads'
+    - var variant = variants[variantKey] || variants['ads'] || {}
+    if variant.slot || theme.google_adsense.slot
+        .card-widget.card-adsense
+            +adsenseBlock(variantKey)

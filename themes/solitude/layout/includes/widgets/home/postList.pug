@@ -64,20 +64,17 @@ mixin rowLayout(position)
 //- 广告组件
 mixin adsenseCard()
   if theme.google_adsense && theme.google_adsense.enable && !theme.google_adsense.auto_ads && theme.google_adsense.post_card
-    - var adsHeight = direction === 'column' ? '401px' : '280px'
-    if (index + 1) % 3 === 0
+    - var placements = theme.google_adsense.placements || {}
+    - var postCardConfig = placements.post_card || {}
+    - var variantKey = postCardConfig.variant || 'ads'
+    - var interval = postCardConfig.interval || 3
+    if (index + 1) % interval === 0
       .recent-post-item.google-ads-warp
-        - var adsStyle = 'display:block; text-align:center; min-width: 100%; height:' + adsHeight
-        ins.adsbygoogle(
-          style=adsStyle
-          data-ad-layout="in-article"
-          data-ad-format="fluid"
-          hide-unfilled="true"
-          data-ad-client=theme.google_adsense.client
-          data-ad-slot=theme.google_adsense.slot
-        )
-        script.
-          (adsbygoogle = window.adsbygoogle || []).push({});
+        - var adsHeight = direction === 'column' ? '401px' : '280px'
+        - var variants = theme.google_adsense.variants || {}
+        - var variant = variants[variantKey] || {}
+        - var defaultStyle = variant.style || 'display:block; text-align:center; min-width: 100%; height:' + adsHeight
+        +adsenseBlock(variantKey, { style: defaultStyle })
 
 //- 主文章项组件
 - var onclickAttr = "pjax.loadUrl('" + url_for(post.path) + "')"

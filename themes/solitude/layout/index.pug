@@ -48,6 +48,20 @@ mixin postsList()
     each post in currentPagePosts
       include ./includes/widgets/home/postList
 
+    //- 列表尾部广告
+    if theme.google_adsense && theme.google_adsense.enable && !theme.google_adsense.auto_ads
+      - var placements = theme.google_adsense.placements || {}
+      - var tailAd = placements.home_tail || {}
+      - var tailVariant = tailAd.variant
+      if tailVariant
+        - var variants = theme.google_adsense.variants || {}
+        - var variant = variants[tailVariant] || {}
+        .recent-post-item.google-ads-warp.home-tail-ads
+          if variant.title
+            .item-headline
+              span= variant.title
+          +adsenseBlock(tailVariant)
+
     //- 自定义分页导航
     if totalPages > 1
       nav#pagination

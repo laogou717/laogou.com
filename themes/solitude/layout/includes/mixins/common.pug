@@ -177,3 +177,32 @@ mixin shareButton(platform, url, title)
   - var linkOptions = { class: 'share-' + platform, target: '_blank', title: '分享到' + platform }
   +link(shareUrl, '', linkOptions)
     +icon('fab fa-' + platform)
+
+//- Adsense 通用输出
+mixin adsenseBlock(variantKey, options)
+  - options = options || {}
+  - var variants = theme.google_adsense && theme.google_adsense.variants || {}
+  - var variant = variants[variantKey] || {}
+  - var client = variant.client || theme.google_adsense.client
+  - var slot = variant.slot || theme.google_adsense.slot
+  if client && slot
+    - var style = variant.style || options.style || 'display:block; text-align:center; min-height:120px; min-width: 100%'
+    - var layout = variant.layout || options.layout
+    - var format = variant.format || options.format
+    - var layoutKey = variant.layout_key || options.layout_key
+    - var fullWidth = variant.full_width_responsive || options.full_width_responsive
+    - var adtest = variant.adtest || options.adtest
+    - var hideUnfilled = options.hide_unfilled === false ? undefined : 'true'
+    ins.adsbygoogle(
+      style=style
+      data-ad-client=client
+      data-ad-slot=slot
+      hide-unfilled=hideUnfilled
+      data-ad-layout=layout
+      data-ad-format=format
+      data-ad-layout-key=layoutKey
+      data-full-width-responsive=fullWidth
+      data-adtest=adtest
+    )
+    script.
+      (adsbygoogle = window.adsbygoogle || []).push({});

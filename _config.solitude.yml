@@ -138,7 +138,7 @@ aside:
   # Sticky: Fixed position / noSticky: Not fixed position
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # on the homepage
-    noSticky: "about,calendar,ads,schedule"
+    noSticky: "about,calendar,schedule,ads"
     Sticky: "allInfo"
   post: # on the article page
     noSticky: "about,ads"
@@ -982,20 +982,19 @@ google_adsense:
   # Post content ads
   # 文章内容广告
   post_content: false
-  # Sidebar attrs
-  # 侧边栏广告自定义属性
-  aside_attrs:
-    style: "display:block; text-align:center; min-height:120px; min-width: 100%"
-    layout: "in-article"
-    format: "fluid"
-    full_width_responsive:
-    layout_key:
-    adtest:
+  # Ad variants
+  # 广告类型配置
+  variants:
+    ads:
+      style: "display:block"
+      format: "fluid"
+      layout_key: "-5x+cm-c-84+ne"
+      slot: 2805175086
   # Google Adsense js
   # 谷歌广告 js
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client: ca-pub-7233788645476299
-  slot: 3397569001
+  slot: 2805175086
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------

@@ -20,10 +20,11 @@ block content
                                     =data.name
                                     span.tagsPageCount=data.length
             if theme.google_adsense.enable && !theme.google_adsense.auto_ads && theme.google_adsense.post_content
+                - var placements = theme.google_adsense.placements || {}
+                - var contentConfig = placements.post_content || {}
+                - var variantKey = contentConfig.variant || 'ads'
                 div.google-ads-warp
-                    ins.adsbygoogle(style="display:block; text-align:center; height:284px", data-ad-layout="in-article", data-ad-format="fluid", hide-unfilled="true", data-ad-client=theme.google_adsense.client, data-ad-slot=theme.google_adsense.slot)
-                    script.
-                        (adsbygoogle = window.adsbygoogle || []).push({});
+                    +adsenseBlock(variantKey, { style: 'display:block; text-align:center; height:284px' })
             if site.posts.length > 1
                 include includes/widgets/post/postNav
             if theme.related_post.enable
