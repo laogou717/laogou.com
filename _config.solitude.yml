@@ -138,13 +138,13 @@ aside:
   # Sticky: Fixed position / noSticky: Not fixed position
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # on the homepage
-    noSticky: "about,calendar,schedule"
+    noSticky: "about,ads,calendar,schedule"
     Sticky: "allInfo"
   post: # on the article page
-    noSticky: "about"
+    noSticky: "about,ads"
     Sticky: "newestPost"
   page: # on the page
-    noSticky: "about"
+    noSticky: "about,ads"
     Sticky: "newestPost,allInfo"
   # 菜单栏位置(0: 左 1: 右)
   position: 1 # Sidebar positioning(0: left 1: right)
@@ -969,23 +969,24 @@ google_adsense:
   enable: true
   # Auto ads
   # 自动广告
-  auto_ads: true
+  auto_ads: false
   # Page-level ads
   # 页面级广告
-  enable_page_level_ads: true
+  enable_page_level_ads: false
   # Sidebar card ads
   # 侧边栏卡片广告
   aside_card: true
   # Post card ads
   # 文章卡片广告
-  post_card: true
+  post_card: false
   # Post content ads
   # 文章内容广告
+  post_content: false
   # Google Adsense js
   # 谷歌广告 js
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client: ca-pub-7233788645476299
-  slot: # 4236388782
+  slot: 3397569001
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
