@@ -6,4 +6,4 @@ Disallow: /images/
 Disallow: /image/
 Disallow: /emoji/
 
-Sitemap: http://www.laogou717.com/sitemap.xml
+Sitemap: https://www.laogou717.com/sitemap.xml
