@@ -7,7 +7,6 @@ tags:
   - 升级ChatGPT
   - Apple礼品卡
 date: 2025-09-26T00:55:00.000Z
-color: '#03973B'
 ai_text: 如何通过 Apple 礼品卡为海外应用订阅（如 ChatGPT/Claude 等）,并推荐免费、低价渠道。
 ---
 
