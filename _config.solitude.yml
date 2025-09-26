@@ -647,7 +647,7 @@ keyboard:
 # Lazyload
 # 懒加载
 lazyload:
-  enable: false
+  enable: true
   field: site
   placeholder: ""
   errorimg: /img/error_load.avif
