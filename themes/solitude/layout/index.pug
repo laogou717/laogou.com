@@ -27,22 +27,38 @@ mixin postsList()
     include ./includes/widgets/third-party/hot/index.pug
 
   .recent-posts#recent-posts
-    //- 先过滤再分页的逻辑
-    - var allPosts = site.posts.sort("-sticky").sort("-date").data
+    //- 先过滤，再进行置顶分组和排序，保证置顶绝对优先
+    - var allPosts = site.posts.data
     - var filteredPosts = []
     each post in allPosts
       - var excluded = inCategories(post, theme.home_exclude_categories || [])
       if !post.hide_in_home && !excluded
         - filteredPosts.push(post)
+
+    //- 分组：置顶与非置顶
+    - var stickyPosts = []
+    - var normalPosts = []
+    each post in filteredPosts
+      if post.sticky
+        - stickyPosts.push(post)
+      else
+        - normalPosts.push(post)
+
+    //- 各组内按日期降序排序
+    - stickyPosts.sort(function(a, b){ return new Date(b.date) - new Date(a.date) })
+    - normalPosts.sort(function(a, b){ return new Date(b.date) - new Date(a.date) })
+
+    //- 置顶在前，非置顶在后
+    - var orderedPosts = stickyPosts.concat(normalPosts)
     
     //- 计算分页参数
     - var perPage = config.per_page || 10
     - var currentPage = page.current || 1
-    - var totalPosts = filteredPosts.length
+    - var totalPosts = orderedPosts.length
     - var totalPages = Math.ceil(totalPosts / perPage)
     - var startIndex = (currentPage - 1) * perPage
     - var endIndex = Math.min(startIndex + perPage, totalPosts)
-    - var currentPagePosts = filteredPosts.slice(startIndex, endIndex)
+    - var currentPagePosts = orderedPosts.slice(startIndex, endIndex)
     
     //- 渲染当前页的文章
     each post in currentPagePosts
