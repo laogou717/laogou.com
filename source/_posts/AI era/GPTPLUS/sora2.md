@@ -33,7 +33,10 @@ description: OpenAI 于 9月30日发布 Sora 2，这是其 AI 视频生成工具
 ai_text: OpenAI Sora 2 正式发布！免费用户也能使用，中文理解能力大幅提升。本文详细介绍 Sora 2 使用教程、邀请码获取方式、iOS App 下载方法，以及与 Veo 3 的对比评测。附永久邀请码和个人邀请码分享
 ---
 > 昨天（9月30日美国时间），OpenAI 终于发布了 Sora 2，这可能是今年最令人期待的 AI 产品更新之一。最让人兴奋的是什么？**免费用户也能用了！**
+
+ {% bvideo 'BV1SYH4zcEQ4' %}
 ![sora2](https://image.laogou717.com/file/BpWzO7qL.png)
+
 
 ## Sora 2 有什么亮点？
 
