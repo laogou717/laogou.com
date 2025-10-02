@@ -42,12 +42,12 @@ ai_text: OpenAI Sora 2 正式发布！免费用户也能使用，中文理解能
 - 这就是互联网最美好的样子🙏
   
  {% bvideo 'BV1SYH4zcEQ4' %}
-![sora2](https://image.laogou717.com/file/BpWzO7qL.png)
+
 ---
 {% note 'danger modern' 'fas fa-wand-magic-sparkles' %}
 一些其他方式获取
 {% endnote %}
-
+![共享平台](https://image.laogou717.com/file/vcOOEo36.png)
 - 如果你正在寻找 Sora 的邀请码，可以试试访问 https://formbiz.biz
 - 这是一个来自互联网社区的共享资源，需要一点运气和手速——邀请码大约每五分钟会更新一次。
 ### 💡 温馨提醒：
@@ -56,7 +56,8 @@ ai_text: OpenAI Sora 2 正式发布！免费用户也能使用，中文理解能
 - 人人为我，我为人人。每一次分享，都让这个社区变得更温暖一点。
 
 > 昨天（9月30日美国时间），OpenAI 终于发布了 Sora 2，这可能是今年最令人期待的 AI 产品更新之一。最让人兴奋的是什么？**免费用户也能用了！**
-![共享平台](https://image.laogou717.com/file/vcOOEo36.png)
+
+![sora2](https://image.laogou717.com/file/BpWzO7qL.png)
 
 ## Sora 2 有什么亮点？
 
