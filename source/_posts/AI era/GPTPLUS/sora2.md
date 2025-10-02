@@ -33,9 +33,21 @@ description: OpenAI 于 9月30日发布 Sora 2，这是其 AI 视频生成工具
 ai_text: OpenAI Sora 2 正式发布！免费用户也能使用，中文理解能力大幅提升。本文详细介绍 Sora 2 使用教程、邀请码获取方式、iOS App 下载方法，以及与 Veo 3 的对比评测。附永久邀请码和个人邀请码分享
 ---
 {% note 'danger modern' 'fas fa-wand-magic-sparkles' %}
-关于 Sora 邀请码分享
+最快获取邀请码的方式
 {% endnote %}
-![共享平台](https://image.laogou717.com/file/vcOOEo36.png)
+- 如果还是没能获取到邀请码：
+- 请点击视频，在置顶评论区与大家接龙。
+- 目前已经有近百位热心的朋友在那里分享自己的邀请码，形成了一个温暖的裂变链条。
+- 感谢每一位愿意分享的朋友们
+- 这就是互联网最美好的样子🙏
+  
+ {% bvideo 'BV1SYH4zcEQ4' %}
+![sora2](https://image.laogou717.com/file/BpWzO7qL.png)
+---
+{% note 'danger modern' 'fas fa-wand-magic-sparkles' %}
+一些其他方式获取
+{% endnote %}
+
 - 如果你正在寻找 Sora 的邀请码，可以试试访问 https://formbiz.biz
 - 这是一个来自互联网社区的共享资源，需要一点运气和手速——邀请码大约每五分钟会更新一次。
 ### 💡 温馨提醒：
@@ -43,13 +55,8 @@ ai_text: OpenAI Sora 2 正式发布！免费用户也能使用，中文理解能
 - 无论是回到这个平台提交，还是在其他地方分享给需要的人，都能让更多人体验到 Sora 的魅力。
 - 人人为我，我为人人。每一次分享，都让这个社区变得更温暖一点。
 
----
-
 > 昨天（9月30日美国时间），OpenAI 终于发布了 Sora 2，这可能是今年最令人期待的 AI 产品更新之一。最让人兴奋的是什么？**免费用户也能用了！**
-
- {% bvideo 'BV1SYH4zcEQ4' %}
-![sora2](https://image.laogou717.com/file/BpWzO7qL.png)
-
+![共享平台](https://image.laogou717.com/file/vcOOEo36.png)
 
 ## Sora 2 有什么亮点？
 
