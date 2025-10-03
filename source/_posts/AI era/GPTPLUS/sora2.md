@@ -7,6 +7,7 @@ tags:
   - OpenAI
   - Sora2邀请码
 date: 2025-09-30 12:00:00
+sticky: 3
 keywords:
   - Sora 2
   - OpenAI Sora
