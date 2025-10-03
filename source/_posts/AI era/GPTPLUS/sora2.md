@@ -2,7 +2,6 @@
 title: Sora 2 来了！免费用户也能玩上 AI 视频生成了
 cover: https://image.laogou717.com/file/image/blog/2024/EHg3UXFC.jpg
 categories: AI纪元
-sticky: 3
 tags:
   - Sora2
   - OpenAI
