@@ -9,7 +9,6 @@ tags:
   - 手机3D扫描
   - AI应用
 date: 2025-10-28 05:00:00
-sticky: 3
 keywords:
   - 3D Gaussian Splatting
   - 高斯泼溅技术
