@@ -2,7 +2,7 @@
 title: "关于 Skills，知道这些就够了"
 description: "现在的 Agent 大多是“残废”，因为只有嘴没有手。本文深入解析 Skills 与 MCP 的区别，揭示为什么 Skills 才是让 AI 真正干活的关键，以及如何通过动态技能包让你的 Agent 拒绝平庸。"
 date: "2026-01-23"
-cover: https://image.laogou717.com/file/image/blog/1757590046881_image.png
+cover: https://image.laogou717.com/file/image/blog/2024/d4uvaLUq.jpg
 categories: AI纪元
 sticky: 2
 tags:
