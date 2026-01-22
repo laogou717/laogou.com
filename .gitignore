@@ -1,5 +1,6 @@
 .DS_Store
 Thumbs.db
+.agent/
 db.json
 *.log
 *.log*
@@ -26,3 +27,6 @@ themes/*/node_modules/
 
 # OS junk
 Desktop.ini
+
+# Agent skills
+.agent/skills/
